@@ -1,0 +1,134 @@
+NOTE from PE     0: MPP_DOMAINS_SET_STACK_SIZE: stack size set to    32768.
+ &MPP_IO_NML
+ HEADER_BUFFER_VAL       =       16384,
+ GLOBAL_FIELD_ON_ROOT_PE = T,
+ IO_CLOCKS_ON    = F,
+ SHUFFLE =           0,
+ DEFLATE_LEVEL   =          -1,
+ CF_COMPLIANCE   = F
+ /
+NOTE from PE     0: MPP_IO_SET_STACK_SIZE: stack size set to     131072.
+NOTE from PE     0: MPP_DOMAINS_SET_STACK_SIZE: stack size set to   960000.
+NOTE from PE     0: ======== Model being driven by MOM_driver ========
+NOTE from PE     0: callTree: o Program MOM_main, MOM_driver.F90
+ &OCEAN_SOLO_NML
+ DATE_INIT       = 3*1, 3*0,
+ CALENDAR        = julian          ,
+ MONTHS  =           0,
+ DAYS    =          30,
+ HOURS   =           0,
+ MINUTES =           0,
+ SECONDS =           0,
+ OCEAN_NTHREADS  =           1,
+ USE_HYPER_THREAD        = F
+ /
+NOTE from PE     0: open_param_file: MOM_input has been opened successfully.
+NOTE from PE     0: open_param_file: MOM_override has been opened successfully.
+
+WARNING from PE     0: MOM_file_parser : ICE_SHELF over-ridden.  Line: 'ICE_SHELF = False' in file MOM_override.
+
+ MOM_in domain decomposition
+whalo =    4, ehalo =    4, shalo =    4, nhalo =    4
+  X-AXIS =   15  15  15  15  15  15  15  15  15  15  15  15  15  15  15  15
+  Y-AXIS =   14  12  14
+ MOM_inc domain decomposition
+whalo =    2, ehalo =    2, shalo =    2, nhalo =    2
+  X-AXIS =    8   8   8   8   7   7   7   7   7   7   7   7   8   8   8   8
+  Y-AXIS =    7   6   7
+
+WARNING from PE     0: diag_manager_mod::diag_manager_init: DIAG_MANAGER_NML not found in input.nml.  Using defaults.
+
+NOTE from PE     0: diag_manager_mod::diag_manager_init: prepend_date only supported when diag_manager_init is called with time_init present.
+ MOM_in domain decomposition
+whalo =    4, ehalo =    4, shalo =    4, nhalo =    4
+  X-AXIS =   15  15  15  15  15  15  15  15  15  15  15  15  15  15  15  15
+  Y-AXIS =   14  12  14
+ MOM_in domain decomposition
+whalo =    2, ehalo =    2, shalo =    2, nhalo =    2
+  X-AXIS =    8   8   8   8   7   7   7   7   7   7   7   7   8   8   8   8
+  Y-AXIS =    7   6   7
+
+WARNING from PE     0: MOM_file_parser : TOPO_CONFIG over-ridden.  Line: 'TOPO_CONFIG = "flat"' in file MOM_override.
+
+
+WARNING from PE     0: MOM_file_parser : MAXIMUM_DEPTH over-ridden.  Line: 'MAXIMUM_DEPTH = 720.0' in file MOM_override.
+
+
+WARNING from PE     0: MOM_file_parser : MINIMUM_DEPTH over-ridden.  Line: 'MINIMUM_DEPTH = 0.0' in file MOM_override.
+
+ MOM_in domain decomposition
+whalo =    4, ehalo =    4, shalo =    4, nhalo =    4
+  X-AXIS =   15  15  15  15  15  15  15  15  15  15  15  15  15  15  15  15
+  Y-AXIS =   14  12  14
+ MOM_in domain decomposition
+whalo =    2, ehalo =    2, shalo =    2, nhalo =    2
+  X-AXIS =    8   8   8   8   7   7   7   7   7   7   7   7   8   8   8   8
+  Y-AXIS =    7   6   7
+NOTE from PE     0: MOM_initialization.F90, initialize_thickness_uniform: setting thickness
+
+WARNING from PE     0: MOM_file_parser : TS_CONFIG over-ridden.  Line: 'TS_CONFIG = "ISOMIP"' in file MOM_override.
+
+ MOM_in domain decomposition
+whalo =    4, ehalo =    4, shalo =    4, nhalo =    4
+  X-AXIS =   15  15  15  15  15  15  15  15  15  15  15  15  15  15  15  15
+  Y-AXIS =   14  12  14
+ MOM_in domain decomposition
+whalo =    2, ehalo =    2, shalo =    2, nhalo =    2
+  X-AXIS =    8   8   8   8   7   7   7   7   7   7   7   7   8   8   8   8
+  Y-AXIS =    7   6   7
+NOTE from PE     0: Segment run length determined from ocean_solo_nml.
+
+WARNING from PE     0: Unused line in MOM_input : SHELF_THREE_EQN = False
+
+
+WARNING from PE     0: Unused line in MOM_input : SHELF_2EQ_GAMMA_T = 1.0E-04
+
+
+WARNING from PE     0: Unused line in MOM_input : ICE_SHELF_FLUX_FACTOR = 0.0
+
+
+WARNING from PE     0: Unused line in MOM_input : ICE_SHELF_TEMPERATURE = -20.0
+
+
+WARNING from PE     0: Unused line in MOM_input : COL_THICK_MELT_THRESHOLD = 1.0
+
+
+WARNING from PE     0: Unused line in MOM_input : USTAR_SHELF_BG = 0.001
+
+
+WARNING from PE     0: Unused line in MOM_input : CDRAG_SHELF = 0.0025
+
+
+WARNING from PE     0: Unused line in MOM_input : ICE_PROFILE_CONFIG = "FILE"
+
+
+WARNING from PE     0: Unused line in MOM_input : ICE_THICKNESS_FILE = "Ocean1_3D.nc"
+
+
+WARNING from PE     0: Unused line in MOM_input : ICE_THICKNESS_VARNAME = "thick"
+
+
+WARNING from PE     0: Unused line in MOM_input : ICE_AREA_VARNAME = "area"
+
+
+WARNING from PE     0: Unused line in MOM_input : T_REF = -1.9
+
+
+WARNING from PE     0: Unused line in MOM_input : FIT_SALINITY = True
+
+
+WARNING from PE     0: Unused line in MOM_input : KVML = 0.0
+
+
+WARNING from PE     0: Unused line in MOM_override : #override HMIXED_FIXED = 20.0
+
+NOTE from PE     0: MOM_surface_forcing: buoyancy forcing has been set to omitted.
+NOTE from PE     0: MPP_IO_SET_STACK_SIZE: stack size set to     240000.
+NOTE from PE     0: MPP_IO_SET_STACK_SIZE: stack size set to     241000.
+NOTE from PE     0: MPP_IO_SET_STACK_SIZE: stack size set to     246000.
+NOTE from PE     0: MPP_IO_SET_STACK_SIZE: stack size set to     249600.
+MOM Day       0.000      0: En 0.000000E+00, MaxCFL  0.00000, Mass 1.729618198403E+16, Salt  34.22698692193, Temp  -1.90000000000
+    Total Energy: 0000000000000000  0.0000000000000000E+00
+    Total Mass:   1.7296181984030858E+16, Change:   0.0000000000000000E+00 Error:  0.00000E+00 ( 0.0E+00)
+    Total Salt:   5.9199619456676788E+14, Change:   0.0000000000000000E+00 Error:  0.00000E+00 ( 0.0E+00)
+    Total Heat:  -1.2898627714591015E+20, Change:   0.0000000000000000E+00 Error:  0.00000E+00 ( 0.0E+00)
