@@ -1,0 +1,33 @@
+laboratory path:  /scratch/x77/cy8964/mom6
+binary path:  /scratch/x77/cy8964/mom6/bin
+input path:  /scratch/x77/cy8964/mom6/input
+work path:  /scratch/x77/cy8964/mom6/work
+archive path:  /scratch/x77/cy8964/mom6/archive
+nruns: 1 nruns_per_submit: 1 subrun: 1
+Loading input manifest: manifests/input.yaml
+Loading restart manifest: manifests/restart.yaml
+Loading exe manifest: manifests/exe.yaml
+Setting up mom6
+Checking exe and input manifests
+Updating full hashes for 1 files in manifests/exe.yaml
+File no longer in input directory: work/INPUT/ocean_daily_z.nc removing from manifest
+Updating full hashes for 55 files in manifests/input.yaml
+Creating restart manifest
+Writing manifests/input.yaml
+Writing manifests/restart.yaml
+Writing manifests/exe.yaml
+payu: Found modules in /opt/Modules/v4.3.0
+mpirun  -wdir /scratch/x77/cy8964/mom6/work/zstar-no_coriolis -np 48  /scratch/x77/cy8964/mom6/work/zstar-no_coriolis/MOM6
+
+======================================================================================
+                  Resource Usage on 2023-04-27 13:43:10:
+   Job Id:             81820705.gadi-pbs
+   Project:            x77
+   Exit Status:        0
+   Service Units:      5.41
+   NCPUs Requested:    48                     NCPUs Used: 48              
+                                           CPU Time Used: 02:28:37        
+   Memory Requested:   192.0GB               Memory Used: 22.65GB         
+   Walltime requested: 00:05:00            Walltime Used: 00:03:23        
+   JobFS requested:    10.0GB                 JobFS used: 8.16MB          
+======================================================================================
