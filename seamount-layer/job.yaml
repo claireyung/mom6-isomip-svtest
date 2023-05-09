@@ -1,9 +1,0 @@
-PAYU_CONTROL_DIR: /home/156/cy8964/mom6-control/isomip-control/ISOMIP-MOM6-examples/seamount-layer
-PAYU_CURRENT_RUN: 0
-PAYU_FINISH_TIME: '2023-04-26T11:07:23.191219'
-PAYU_JOB_STATUS: 1
-PAYU_N_RUNS: 1
-PAYU_PATH: /g/data3/hh5/public/apps/miniconda3/envs/analysis3-22.10/bin
-PAYU_RUN_ID: null
-PAYU_START_TIME: '2023-04-26T11:07:13.931586'
-PAYU_WALLTIME: 9.259633 s
