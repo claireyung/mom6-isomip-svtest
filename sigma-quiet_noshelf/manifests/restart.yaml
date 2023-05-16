@@ -1,0 +1,13 @@
+format: yamanifest
+version: 1.0
+---
+work/INPUT/MOM.res.nc:
+  fullpath: /scratch/x77/cy8964/mom6/archive/sigma-quiet_noshelf/restart000/MOM.res.nc
+  hashes:
+    binhash: 3676c95fe50a47f090b0917b60c07cc3
+    md5: 641a59ccc2d6154ec4f8fc0e352957fd
+work/INPUT/ocean_solo.res:
+  fullpath: /scratch/x77/cy8964/mom6/archive/sigma-quiet_noshelf/restart000/ocean_solo.res
+  hashes:
+    binhash: 05d188c173bc7db47faea2bbe19894b9
+    md5: 182c791bb7587ce53a51e53a6675d060

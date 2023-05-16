@@ -1,0 +1,67 @@
+! Continuous isopycnal mode + initialization
+USE_REGRIDDING = True
+REGRIDDING_COORDINATE_MODE = "Z*" 
+REMAPPING_SCHEME = "PPM_IH4"
+MIN_THICKNESS = 0.1
+#override DAYMAX = 365
+
+#override NIGLOBAL = 240                  !
+                                ! The total number of thickness grid points in the x-direction in the physical
+                                ! domain. With STATIC_MEMORY_ this is set in MOM_memory.h at compile time.
+#override NJGLOBAL = 40                   !
+                                ! The total number of thickness grid points in the y-direction in the physical
+                                ! domain. With STATIC_MEMORY_ this is set in MOM_memory.h at compile time.
+#override GRID_CONFIG = "cartesian"       !
+                                ! A character string that determines the method for defining the horizontal
+                                ! grid.  Current options are:
+                                !     mosaic - read the grid from a mosaic (supergrid)
+                                !              file set by GRID_FILE.
+                                !     cartesian - use a (flat) Cartesian grid.
+                                !     spherical - use a simple spherical grid.
+                                !     mercator - use a Mercator spherical grid.
+#override AXIS_UNITS = "k"                ! default = "degrees"
+                                ! The units for the Cartesian axes. Valid entries are:
+                                !     degrees - degrees of latitude and longitude
+                                !     m - meters
+                                !     k - kilometers
+#override SOUTHLAT = 0.0                  !   [k]
+                                ! The southern latitude of the domain or the equivalent starting value for the
+                                ! y-axis.
+#override LENLAT = 80.0                   !   [k]
+                                ! The latitudinal or y-direction length of the domain.
+#override WESTLON = 320.0                 !   [k] default = 0.0
+                                ! The western longitude of the domain or the equivalent starting value for the
+                                ! x-axis.
+#override LENLON = 480.0                  !   [k]
+                                ! The longitudinal or x-direction length of the domain.
+#override TOPO_CONFIG = "ISOMIP"          !
+                                ! This specifies how bathymetry is specified:
+                                !     file - read bathymetric information from the file
+                                !       specified by (TOPO_FILE).
+                                !     flat - flat bottom set to MAXIMUM_DEPTH.
+                                !     bowl - an analytically specified bowl-shaped basin
+                                !       ranging between MAXIMUM_DEPTH and MINIMUM_DEPTH.
+                                !     spoon - a similar shape to 'bowl', but with an vertical
+                                !       wall at the southern face.                                                                                                                                     52,19         10%
+! === module ISOMIP_initialize_topography ===
+#override MINIMUM_DEPTH = 1.0             !   [m] default = 0.0
+                                ! The minimum depth of the ocean.
+#override MAXIMUM_DEPTH = 720.0           !   [m]
+                                ! The maximum depth of the ocean.
+
+
+#override DT = 300.0
+#override DTTHERM = 300.0
+#override DT_FORCING = 300.0
+
+!ICE_PROFILE_CONFIG = "FILE"     !
+                                ! This specifies how the initial ice profile is specified. Valid values are:
+                                ! CHANNEL, FILE, and USER.
+!ICE_THICKNESS_FILE = "Ocean1_3D.nc" ! default = "ice_shelf_h.nc"
+                                ! The file from which the ice bathymetry and area are read.
+!ICE_THICKNESS_VARNAME = "thick" ! default = "h_shelf"
+                                ! The name of the thickness variable in ICE_THICKNESS_FILE.
+!ICE_AREA_VARNAME = "area"       ! default = "area_shelf_h"
+                                ! The name of the area variable in ICE_THICKNESS_FILE.
+#override THICKNESS_CONFIG = "ISOMIP"     ! default = "uniform"
+#override TS_CONFIG = "ISOMIP"

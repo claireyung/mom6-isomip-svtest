@@ -1,7 +1,7 @@
 "GOLD Experiment"
 1 1 1 0 0 0
 "prog",     1,"hours",1,"days","Time"
-#"ave_prog", 5,"days",1,"days","Time",365,"days"
+"ave_prog", 5,"days",1,"days","Time"
 #"cont_%4yr_%3dy",     5,"days",1,"days","Time",365,"days"
 #"mom_%4yr_%3dy",      5,"days",1,"days","Time",10,"days"
 #"bt_mom_%4yr_%3dy",   5,"days",1,"days","Time",10,"days"
@@ -28,12 +28,12 @@
 #"ocean_model","PV","PV","prog","all",.false.,"none",2
 #"ocean_model","e_D","e_D","prog","all",.false.,"none",2
 
-#"ocean_model","u","u","ave_prog","all",.true.,"none",2
-#"ocean_model","v","v","ave_prog","all",.true.,"none",2
-#"ocean_model","h","h","ave_prog","all",.true.,"none",1
-#"ocean_model","e","e","ave_prog","all",.true.,"none",2
-#"ocean_model","temp","temp","ave_prog","all",.true.,"none",2
-#"ocean_model","salt","salt","ave_prog","all",.true.,"none",2
+"ocean_model","u","u","ave_prog","all",.true.,"none",2
+"ocean_model","v","v","ave_prog","all",.true.,"none",2
+"ocean_model","h","h","ave_prog","all",.true.,"none",1
+"ocean_model","e","e","ave_prog","all",.true.,"none",2
+"ocean_model","temp","temp","ave_prog","all",.true.,"none",2
+"ocean_model","salt","salt","ave_prog","all",.true.,"none",2
 #"ocean_model","Rml","Rml","ave_prog","all",.true.,"none",2
 
 # Continuity Equation Terms:

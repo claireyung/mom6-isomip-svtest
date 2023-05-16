@@ -1,0 +1,809 @@
+[1684215211.059148] [gadi-cpu-clx-2302:1538100:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215211.060384] [gadi-cpu-clx-2302:1538107:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215211.060613] [gadi-cpu-clx-2302:1538119:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215211.060609] [gadi-cpu-clx-2302:1538117:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215211.060864] [gadi-cpu-clx-2302:1538105:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215211.061249] [gadi-cpu-clx-2302:1538113:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215211.061317] [gadi-cpu-clx-2302:1538104:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215211.061700] [gadi-cpu-clx-2302:1538111:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215211.063257] [gadi-cpu-clx-2302:1538143:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215211.066442] [gadi-cpu-clx-2302:1538139:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215211.067926] [gadi-cpu-clx-2302:1538109:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215211.071060] [gadi-cpu-clx-2302:1538099:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215211.072276] [gadi-cpu-clx-2302:1538129:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215211.073660] [gadi-cpu-clx-2302:1538114:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215211.082440] [gadi-cpu-clx-2302:1538098:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215211.098809] [gadi-cpu-clx-2302:1538127:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215211.099308] [gadi-cpu-clx-2302:1538124:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215211.100412] [gadi-cpu-clx-2302:1538134:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215211.101004] [gadi-cpu-clx-2302:1538120:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215211.101096] [gadi-cpu-clx-2302:1538132:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215211.106072] [gadi-cpu-clx-2302:1538102:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215211.107122] [gadi-cpu-clx-2302:1538108:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215211.107298] [gadi-cpu-clx-2302:1538116:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215211.107389] [gadi-cpu-clx-2302:1538142:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215211.111191] [gadi-cpu-clx-2302:1538115:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215211.120638] [gadi-cpu-clx-2302:1538128:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215211.122670] [gadi-cpu-clx-2302:1538100:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215211.124822] [gadi-cpu-clx-2302:1538107:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215211.126026] [gadi-cpu-clx-2302:1538118:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215211.126175] [gadi-cpu-clx-2302:1538113:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215211.126995] [gadi-cpu-clx-2302:1538105:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215211.127040] [gadi-cpu-clx-2302:1538119:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215211.127081] [gadi-cpu-clx-2302:1538109:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215211.127092] [gadi-cpu-clx-2302:1538117:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215211.127467] [gadi-cpu-clx-2302:1538104:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215211.129265] [gadi-cpu-clx-2302:1538111:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215211.129346] [gadi-cpu-clx-2302:1538143:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215211.129972] [gadi-cpu-clx-2302:1538139:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215211.131111] [gadi-cpu-clx-2302:1538129:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215211.131613] [gadi-cpu-clx-2302:1538114:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215211.132310] [gadi-cpu-clx-2302:1538099:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215211.133430] [gadi-cpu-clx-2302:1538098:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215211.133653] [gadi-cpu-clx-2302:1538138:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215211.136343] [gadi-cpu-clx-2302:1538112:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215211.145641] [gadi-cpu-clx-2302:1538144:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215211.149984] [gadi-cpu-clx-2302:1538130:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215211.152635] [gadi-cpu-clx-2302:1538141:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215211.153571] [gadi-cpu-clx-2302:1538123:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215211.153837] [gadi-cpu-clx-2302:1538136:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215211.153991] [gadi-cpu-clx-2302:1538135:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215211.154120] [gadi-cpu-clx-2302:1538125:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215211.154159] [gadi-cpu-clx-2302:1538122:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215211.154321] [gadi-cpu-clx-2302:1538126:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215211.154658] [gadi-cpu-clx-2302:1538140:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215211.154815] [gadi-cpu-clx-2302:1538137:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215211.154894] [gadi-cpu-clx-2302:1538101:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215211.154892] [gadi-cpu-clx-2302:1538131:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215211.155110] [gadi-cpu-clx-2302:1538121:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215211.155149] [gadi-cpu-clx-2302:1538110:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215211.155197] [gadi-cpu-clx-2302:1538103:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215211.156315] [gadi-cpu-clx-2302:1538133:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215211.160059] [gadi-cpu-clx-2302:1538097:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215211.172788] [gadi-cpu-clx-2302:1538127:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215211.174155] [gadi-cpu-clx-2302:1538134:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215211.177084] [gadi-cpu-clx-2302:1538132:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215211.179219] [gadi-cpu-clx-2302:1538124:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215211.179465] [gadi-cpu-clx-2302:1538120:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215211.181952] [gadi-cpu-clx-2302:1538102:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215211.184158] [gadi-cpu-clx-2302:1538108:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215211.185081] [gadi-cpu-clx-2302:1538116:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215211.185236] [gadi-cpu-clx-2302:1538142:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215211.185600] [gadi-cpu-clx-2302:1538115:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215211.187800] [gadi-cpu-clx-2302:1538128:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215211.189254] [gadi-cpu-clx-2302:1538118:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215211.192254] [gadi-cpu-clx-2302:1538138:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215211.192709] [gadi-cpu-clx-2302:1538112:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215211.193386] [gadi-cpu-clx-2302:1538144:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215211.194213] [gadi-cpu-clx-2302:1538130:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215211.197355] [gadi-cpu-clx-2302:1538141:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215211.199086] [gadi-cpu-clx-2302:1538123:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215211.199707] [gadi-cpu-clx-2302:1538103:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215211.201858] [gadi-cpu-clx-2302:1538122:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215211.202343] [gadi-cpu-clx-2302:1538137:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215211.203198] [gadi-cpu-clx-2302:1538125:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215211.203771] [gadi-cpu-clx-2302:1538135:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215211.203854] [gadi-cpu-clx-2302:1538101:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215211.204462] [gadi-cpu-clx-2302:1538136:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215211.204627] [gadi-cpu-clx-2302:1538126:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215211.204759] [gadi-cpu-clx-2302:1538131:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215211.205035] [gadi-cpu-clx-2302:1538110:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215211.205521] [gadi-cpu-clx-2302:1538133:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215211.205909] [gadi-cpu-clx-2302:1538121:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215211.205971] [gadi-cpu-clx-2302:1538140:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215211.207401] [gadi-cpu-clx-2302:1538097:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215211.251847] [gadi-cpu-clx-2302:1538106:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215211.269526] [gadi-cpu-clx-2302:1538106:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215211.970566] [gadi-cpu-clx-2302:1538102:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215211.970566] [gadi-cpu-clx-2302:1538103:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215211.970787] [gadi-cpu-clx-2302:1538098:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215211.976598] [gadi-cpu-clx-2302:1538136:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215211.977704] [gadi-cpu-clx-2302:1538123:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215211.979890] [gadi-cpu-clx-2302:1538105:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215211.980871] [gadi-cpu-clx-2302:1538117:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215211.983212] [gadi-cpu-clx-2302:1538111:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215211.996356] [gadi-cpu-clx-2302:1538107:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215211.996424] [gadi-cpu-clx-2302:1538133:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215211.999816] [gadi-cpu-clx-2302:1538143:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215212.004423] [gadi-cpu-clx-2302:1538139:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215212.004987] [gadi-cpu-clx-2302:1538124:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215212.005162] [gadi-cpu-clx-2302:1538134:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215212.005307] [gadi-cpu-clx-2302:1538122:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215212.005477] [gadi-cpu-clx-2302:1538144:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215212.005667] [gadi-cpu-clx-2302:1538112:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215212.005888] [gadi-cpu-clx-2302:1538135:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215212.006371] [gadi-cpu-clx-2302:1538142:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215212.006882] [gadi-cpu-clx-2302:1538126:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215212.006973] [gadi-cpu-clx-2302:1538129:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215212.006990] [gadi-cpu-clx-2302:1538127:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215212.006978] [gadi-cpu-clx-2302:1538125:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215212.007070] [gadi-cpu-clx-2302:1538121:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215212.011137] [gadi-cpu-clx-2302:1538118:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215212.013348] [gadi-cpu-clx-2302:1538106:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215212.015511] [gadi-cpu-clx-2302:1538113:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215212.025082] [gadi-cpu-clx-2302:1538137:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215212.051412] [gadi-cpu-clx-2302:1538119:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215212.051492] [gadi-cpu-clx-2302:1538098:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215212.051575] [gadi-cpu-clx-2302:1538103:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215212.052322] [gadi-cpu-clx-2302:1538102:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215212.054402] [gadi-cpu-clx-2302:1538123:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215212.055447] [gadi-cpu-clx-2302:1538132:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215212.055444] [gadi-cpu-clx-2302:1538136:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215212.056361] [gadi-cpu-clx-2302:1538105:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215212.057117] [gadi-cpu-clx-2302:1538099:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215212.059156] [gadi-cpu-clx-2302:1538111:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215212.059499] [gadi-cpu-clx-2302:1538117:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215212.059951] [gadi-cpu-clx-2302:1538100:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215212.065882] [gadi-cpu-clx-2302:1538101:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215212.069021] [gadi-cpu-clx-2302:1538107:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215212.069337] [gadi-cpu-clx-2302:1538140:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215212.069982] [gadi-cpu-clx-2302:1538133:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215212.070238] [gadi-cpu-clx-2302:1538104:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215212.070491] [gadi-cpu-clx-2302:1538114:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215212.071534] [gadi-cpu-clx-2302:1538141:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215212.071544] [gadi-cpu-clx-2302:1538108:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215212.071804] [gadi-cpu-clx-2302:1538120:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215212.072531] [gadi-cpu-clx-2302:1538130:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215212.073445] [gadi-cpu-clx-2302:1538115:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215212.073527] [gadi-cpu-clx-2302:1538109:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215212.073922] [gadi-cpu-clx-2302:1538138:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215212.075846] [gadi-cpu-clx-2302:1538131:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215212.075937] [gadi-cpu-clx-2302:1538143:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215212.076476] [gadi-cpu-clx-2302:1538144:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215212.076533] [gadi-cpu-clx-2302:1538116:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215212.077196] [gadi-cpu-clx-2302:1538124:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215212.078136] [gadi-cpu-clx-2302:1538121:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215212.078464] [gadi-cpu-clx-2302:1538139:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215212.081445] [gadi-cpu-clx-2302:1538127:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215212.081716] [gadi-cpu-clx-2302:1538122:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215212.083621] [gadi-cpu-clx-2302:1538129:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215212.084930] [gadi-cpu-clx-2302:1538142:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215212.085134] [gadi-cpu-clx-2302:1538112:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215212.085361] [gadi-cpu-clx-2302:1538118:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215212.087000] [gadi-cpu-clx-2302:1538125:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215212.087851] [gadi-cpu-clx-2302:1538097:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215212.088281] [gadi-cpu-clx-2302:1538126:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215212.090884] [gadi-cpu-clx-2302:1538134:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215212.091244] [gadi-cpu-clx-2302:1538113:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215212.092473] [gadi-cpu-clx-2302:1538135:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215212.092962] [gadi-cpu-clx-2302:1538128:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215212.093406] [gadi-cpu-clx-2302:1538106:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215212.094315] [gadi-cpu-clx-2302:1538110:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215212.099945] [gadi-cpu-clx-2302:1538137:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215212.121166] [gadi-cpu-clx-2302:1538119:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215212.122868] [gadi-cpu-clx-2302:1538132:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215212.123665] [gadi-cpu-clx-2302:1538099:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215212.125439] [gadi-cpu-clx-2302:1538100:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215212.128155] [gadi-cpu-clx-2302:1538101:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215212.128894] [gadi-cpu-clx-2302:1538130:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215212.129454] [gadi-cpu-clx-2302:1538104:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215212.129870] [gadi-cpu-clx-2302:1538108:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215212.129970] [gadi-cpu-clx-2302:1538140:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215212.130490] [gadi-cpu-clx-2302:1538138:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215212.130765] [gadi-cpu-clx-2302:1538114:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215212.131034] [gadi-cpu-clx-2302:1538141:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215212.131133] [gadi-cpu-clx-2302:1538109:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215212.131132] [gadi-cpu-clx-2302:1538131:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215212.131383] [gadi-cpu-clx-2302:1538116:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215212.131981] [gadi-cpu-clx-2302:1538115:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215212.131976] [gadi-cpu-clx-2302:1538120:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215212.132793] [gadi-cpu-clx-2302:1538110:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215212.132799] [gadi-cpu-clx-2302:1538128:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+[1684215212.134146] [gadi-cpu-clx-2302:1538097:0]  rc_mlx5_common.c:747  UCX  WARN  ibv_reg_mr_dm() error - On Device Memory registration failed, 12 Cannot allocate memory
+NOTE from PE     0: MPP_DOMAINS_SET_STACK_SIZE: stack size set to    32768.
+ &MPP_IO_NML
+ HEADER_BUFFER_VAL       =       16384,
+ GLOBAL_FIELD_ON_ROOT_PE = T,
+ IO_CLOCKS_ON    = F,
+ SHUFFLE =           0,
+ DEFLATE_LEVEL   =          -1,
+ CF_COMPLIANCE   = F
+ /
+NOTE from PE     0: MPP_IO_SET_STACK_SIZE: stack size set to     131072.
+NOTE from PE     0: MPP_DOMAINS_SET_STACK_SIZE: stack size set to   960000.
+NOTE from PE     0: ======== Model being driven by MOM_driver ========
+NOTE from PE     0: callTree: o Program MOM_main, MOM_driver.F90
+ &OCEAN_SOLO_NML
+ DATE_INIT       = 3*1, 3*0,
+ CALENDAR        = julian          ,
+ MONTHS  =           0,
+ DAYS    =         365,
+ HOURS   =           0,
+ MINUTES =           0,
+ SECONDS =           0,
+ OCEAN_NTHREADS  =           1,
+ USE_HYPER_THREAD        = F
+ /
+NOTE from PE     0: open_param_file: MOM_input has been opened successfully.
+NOTE from PE     0: open_param_file: MOM_override has been opened successfully.
+ MOM_in domain decomposition
+whalo =    4, ehalo =    4, shalo =    4, nhalo =    4
+  X-AXIS =   15  15  15  15  15  15  15  15  15  15  15  15  15  15  15  15
+  Y-AXIS =   14  12  14
+ MOM_inc domain decomposition
+whalo =    2, ehalo =    2, shalo =    2, nhalo =    2
+  X-AXIS =    8   8   8   8   7   7   7   7   7   7   7   7   8   8   8   8
+  Y-AXIS =    7   6   7
+
+WARNING from PE     0: diag_manager_mod::diag_manager_init: DIAG_MANAGER_NML not found in input.nml.  Using defaults.
+
+NOTE from PE     0: diag_manager_mod::diag_manager_init: prepend_date only supported when diag_manager_init is called with time_init present.
+ MOM_in domain decomposition
+whalo =    4, ehalo =    4, shalo =    4, nhalo =    4
+  X-AXIS =   15  15  15  15  15  15  15  15  15  15  15  15  15  15  15  15
+  Y-AXIS =   14  12  14
+ MOM_in domain decomposition
+whalo =    2, ehalo =    2, shalo =    2, nhalo =    2
+  X-AXIS =    8   8   8   8   7   7   7   7   7   7   7   7   8   8   8   8
+  Y-AXIS =    7   6   7
+ MOM_in domain decomposition
+whalo =    4, ehalo =    4, shalo =    4, nhalo =    4
+  X-AXIS =   15  15  15  15  15  15  15  15  15  15  15  15  15  15  15  15
+  Y-AXIS =   14  12  14
+ MOM_in domain decomposition
+whalo =    2, ehalo =    2, shalo =    2, nhalo =    2
+  X-AXIS =    8   8   8   8   7   7   7   7   7   7   7   7   8   8   8   8
+  Y-AXIS =    7   6   7
+ MOM_Ice_Shelf_in domain decomposition
+whalo =    4, ehalo =    4, shalo =    4, nhalo =    4
+  X-AXIS =   15  15  15  15  15  15  15  15  15  15  15  15  15  15  15  15
+  Y-AXIS =   14  12  14
+ MOM_Ice_Shelf_inc domain decomposition
+whalo =    2, ehalo =    2, shalo =    2, nhalo =    2
+  X-AXIS =    8   8   8   8   7   7   7   7   7   7   7   7   8   8   8   8
+  Y-AXIS =    7   6   7
+ MOM_Ice_Shelf_in domain decomposition
+whalo =    4, ehalo =    4, shalo =    4, nhalo =    4
+  X-AXIS =   15  15  15  15  15  15  15  15  15  15  15  15  15  15  15  15
+  Y-AXIS =   14  12  14
+ MOM_Ice_Shelf_in domain decomposition
+whalo =    2, ehalo =    2, shalo =    2, nhalo =    2
+  X-AXIS =    8   8   8   8   7   7   7   7   7   7   7   7   8   8   8   8
+  Y-AXIS =    7   6   7
+NOTE from PE     0: Initialize_ice_thickness_from_file: reading thickness
+
+WARNING from PE     0: Ice shelf thickness initialized without setting the shelf mask from variable h_mask, which does not exist in INPUT/Ocean1_3D.nc
+
+NOTE from PE     0: MOM_initialization.F90, initialize_thickness_uniform: setting thickness
+
+WARNING from PE     0: MOM_file_parser : TS_CONFIG over-ridden.  Line: 'TS_CONFIG = "ISOMIP"' in file MOM_override.
+
+
+WARNING from PE     0: KVML is a deprecated parameter. Use KV_ML_INVZ2 instead.
+
+ MOM_in domain decomposition
+whalo =    4, ehalo =    4, shalo =    4, nhalo =    4
+  X-AXIS =   15  15  15  15  15  15  15  15  15  15  15  15  15  15  15  15
+  Y-AXIS =   14  12  14
+ MOM_in domain decomposition
+whalo =    2, ehalo =    2, shalo =    2, nhalo =    2
+  X-AXIS =    8   8   8   8   7   7   7   7   7   7   7   7   8   8   8   8
+  Y-AXIS =    7   6   7
+NOTE from PE     0: MOM_ice_shelf.F90, initialize_ice_shelf: allocating fluxes.
+NOTE from PE     0: MOM_ice_shelf.F90, initialize_ice_shelf: allocating forces.
+
+WARNING from PE     0: Previous msg:DT_FORCING = 300.0              !   [s] default = 0.0
+
+
+WARNING from PE     0: New message :DT_FORCING = 300.0              !   [s] default = 300.0
+
+
+WARNING from PE     0: Encountered inconsistent documentation line for parameter DT_FORCING!
+
+NOTE from PE     0: Segment run length determined from ocean_solo_nml.
+
+WARNING from PE     0: Unused line in MOM_input : T_REF = -1.9
+
+
+WARNING from PE     0: Unused line in MOM_input : FIT_SALINITY = True
+
+NOTE from PE     0: MOM_surface_forcing: buoyancy forcing has been set to omitted.
+NOTE from PE     0: MPP_IO_SET_STACK_SIZE: stack size set to     240000.
+NOTE from PE     0: MPP_IO_SET_STACK_SIZE: stack size set to     241000.
+NOTE from PE     0: MPP_IO_SET_STACK_SIZE: stack size set to     246000.
+NOTE from PE     0: MPP_IO_SET_STACK_SIZE: stack size set to     249600.
+MOM Day       0.000      0: En 0.000000E+00, MaxCFL  0.00000, Mass 1.335202226718E+16, Salt  34.19116536778, Temp  -1.90000000000
+    Total Energy: 0000000000000000  0.0000000000000000E+00
+    Total Mass:   1.3352022267176024E+16, Change:   0.0000000000000000E+00 Error:  0.00000E+00 ( 0.0E+00)
+    Total Salt:   4.5652120133125275E+14, Change:   0.0000000000000000E+00 Error:  0.00000E+00 ( 0.0E+00)
+    Total Heat:  -9.9572706057465168E+19, Change:   0.0000000000000000E+00 Error:  0.00000E+00 ( 0.0E+00)
+NOTE from PE     0: MPP_IO_SET_STACK_SIZE: stack size set to     250640.
+NOTE from PE     0: MPP_IO_SET_STACK_SIZE: stack size set to     255840.
+
+WARNING from PE     0: diag_util_mod::opening_file: module/field_name (ocean_model/tr_D1) NOT registered
+
+MOM Day       0.125     36: En 1.352724E-08, MaxCFL  0.00041, Mass 1.335202226718E+16, Salt  34.19116536778, Temp  -1.90000000000
+    Total Energy: 41A587F6C68990CD  1.8061603526868287E+08
+    Total Mass:   1.3352022267176022E+16, Change:  -5.8987581730817779E-02 Error: -5.89876E-02 (-4.4E-18)
+    Total Salt:   4.5652120133125262E+14, Change:  -1.3023898315429966E-01 Error: -1.30239E-01 (-2.9E-16)
+    Total Heat:  -9.9572706057465168E+19, Change:  -3.2123940429685263E+03 Error: -3.21239E+03 ( 3.2E-17)
+MOM Day       0.250     72: En 2.406603E-08, MaxCFL  0.00047, Mass 1.335202226718E+16, Salt  34.19116536778, Temp  -1.90000000000
+    Total Energy: 41B3271C2DFB5E01  3.2133022198190314E+08
+    Total Mass:   1.3352022267176024E+16, Change:   1.1154233235632680E-02 Error:  1.11542E-02 ( 8.4E-19)
+    Total Salt:   4.5652120133125262E+14, Change:  -1.9351209640503957E-02 Error: -1.93512E-02 (-4.2E-17)
+    Total Heat:  -9.9572706057465168E+19, Change:   1.1732449218750224E+04 Error:  1.17324E+04 (-1.2E-16)
+MOM Day       0.375    108: En 2.614751E-08, MaxCFL  0.00047, Mass 1.335202226718E+16, Salt  34.19116536778, Temp  -1.90000000000
+    Total Energy: 41B4CF2E7AD5A76F  3.4912217083458608E+08
+    Total Mass:   1.3352022267176020E+16, Change:  -2.4698906376518356E-03 Error: -2.46989E-03 (-1.8E-19)
+    Total Salt:   4.5652120133125262E+14, Change:  -1.6750652313232424E-02 Error: -1.67507E-02 (-3.7E-17)
+    Total Heat:  -9.9572706057465151E+19, Change:   1.1480838867187500E+04 Error:  1.14808E+04 (-1.2E-16)
+MOM Day       0.500    144: En 2.503258E-08, MaxCFL  0.00056, Mass 1.335202226718E+16, Salt  34.19116536778, Temp  -1.90000000000
+    Total Energy: 41B3EC07C0025DDA  3.3423558400924456E+08
+    Total Mass:   1.3352022267176020E+16, Change:   8.7615162463368437E-03 Error:  8.76152E-03 ( 6.6E-19)
+    Total Salt:   4.5652120133125262E+14, Change:  -1.5878841400146483E-02 Error: -1.58788E-02 (-3.5E-17)
+    Total Heat:  -9.9572706057465135E+19, Change:   1.1085087890625000E+04 Error:  1.10851E+04 (-1.1E-16)
+MOM Day       0.625    180: En 2.398808E-08, MaxCFL  0.00056, Mass 1.335202226718E+16, Salt  34.19116536778, Temp  -1.90000000000
+    Total Energy: 41B3173A93F89AC7  3.2028942797111171E+08
+    Total Mass:   1.3352022267176022E+16, Change:  -4.2056875533941322E-03 Error: -4.20569E-03 (-3.1E-19)
+    Total Salt:   4.5652120133125256E+14, Change:  -1.9968173980712892E-02 Error: -1.99682E-02 (-4.4E-17)
+    Total Heat:  -9.9572706057465119E+19, Change:   1.1758645507812500E+04 Error:  1.17586E+04 (-1.2E-16)
+MOM Day       0.750    216: En 2.373523E-08, MaxCFL  0.00056, Mass 1.335202226718E+16, Salt  34.19116536778, Temp  -1.90000000000
+    Total Energy: 41B2E3B683C7A1F2  3.1691328377981484E+08
+    Total Mass:   1.3352022267176022E+16, Change:  -1.5218457202388390E-02 Error: -1.52185E-02 (-1.1E-18)
+    Total Salt:   4.5652120133125256E+14, Change:  -1.6331922531127929E-02 Error: -1.63319E-02 (-3.6E-17)
+    Total Heat:  -9.9572706057465119E+19, Change:   1.1518345703125000E+04 Error:  1.15183E+04 (-1.2E-16)
+MOM Day       0.875    252: En 2.366877E-08, MaxCFL  0.00053, Mass 1.335202226718E+16, Salt  34.19116536778, Temp  -1.90000000000
+    Total Energy: 41B2D62C80B3CE49  3.1602598470236641E+08
+    Total Mass:   1.3352022267176022E+16, Change:   9.0027800536658324E-03 Error:  9.00278E-03 ( 6.7E-19)
+    Total Salt:   4.5652120133125256E+14, Change:  -1.9231554031372070E-02 Error: -1.92316E-02 (-4.2E-17)
+    Total Heat:  -9.9572706057465102E+19, Change:   1.1864458984375000E+04 Error:  1.18645E+04 (-1.2E-16)
+MOM Day       1.000    288: En 2.310569E-08, MaxCFL  0.00055, Mass 1.335202226718E+16, Salt  34.19116536778, Temp  -1.90000000000
+    Total Energy: 41B26374473204ED  3.0850771919538766E+08
+    Total Mass:   1.3352022267176022E+16, Change:  -1.3831005050142564E-02 Error: -1.38310E-02 (-1.0E-18)
+    Total Salt:   4.5652120133125250E+14, Change:  -1.7500909805297851E-02 Error: -1.75009E-02 (-3.8E-17)
+    Total Heat:  -9.9572706057465086E+19, Change:   1.2023300292968750E+04 Error:  1.20233E+04 (-1.2E-16)
+MOM Day       1.125    324: En 2.223146E-08, MaxCFL  0.00054, Mass 1.335202226718E+16, Salt  34.19116536778, Temp  -1.90000000000
+    Total Energy: 41B1B15779472B28  2.9683493727800226E+08
+    Total Mass:   1.3352022267176026E+16, Change:  -1.8121082324519405E-02 Error: -1.81211E-02 (-1.4E-18)
+    Total Salt:   4.5652120133125250E+14, Change:  -2.1363588333129884E-02 Error: -2.13636E-02 (-4.7E-17)
+    Total Heat:  -9.9572706057465086E+19, Change:   1.1309947265625000E+04 Error:  1.13099E+04 (-1.1E-16)
+MOM Day       1.250    360: En 2.160755E-08, MaxCFL  0.00053, Mass 1.335202226718E+16, Salt  34.19116536778, Temp  -1.90000000000
+    Total Energy: 41B1323AC5D2D36D  2.8850451782353860E+08
+    Total Mass:   1.3352022267176022E+16, Change:  -4.5729365762196220E-04 Error: -4.57294E-04 (-3.4E-20)
+    Total Salt:   4.5652120133125250E+14, Change:  -1.9091129302978516E-02 Error: -1.90911E-02 (-4.2E-17)
+    Total Heat:  -9.9572706057465070E+19, Change:   1.2097574218750000E+04 Error:  1.20976E+04 (-1.2E-16)
+MOM Day       1.375    396: En 2.130898E-08, MaxCFL  0.00055, Mass 1.335202226718E+16, Salt  34.19116536778, Temp  -1.90000000000
+    Total Energy: 41B0F566477D1F93  2.8451795948876303E+08
+    Total Mass:   1.3352022267176022E+16, Change:   9.4002044748342714E-03 Error:  9.40020E-03 ( 7.0E-19)
+    Total Salt:   4.5652120133125250E+14, Change:  -1.8179677963256837E-02 Error: -1.81797E-02 (-4.0E-17)
+    Total Heat:  -9.9572706057465053E+19, Change:   1.2061477050781250E+04 Error:  1.20615E+04 (-1.2E-16)
+MOM Day       1.500    432: En 2.107396E-08, MaxCFL  0.00057, Mass 1.335202226718E+16, Salt  34.19116536778, Temp  -1.90000000000
+    Total Energy: 41B0C58499DB529F  2.8137999385672945E+08
+    Total Mass:   1.3352022267176022E+16, Change:  -4.2512375916061995E-03 Error: -4.25124E-03 (-3.2E-19)
+    Total Salt:   4.5652120133125244E+14, Change:  -2.0944160461425783E-02 Error: -2.09442E-02 (-4.6E-17)
+    Total Heat:  -9.9572706057465037E+19, Change:   1.1856870605468750E+04 Error:  1.18569E+04 (-1.2E-16)
+MOM Day       1.625    468: En 2.077210E-08, MaxCFL  0.00058, Mass 1.335202226718E+16, Salt  34.19116536778, Temp  -1.90000000000
+    Total Energy: 41B08804B41B6391  2.7734955610698801E+08
+    Total Mass:   1.3352022267176022E+16, Change:   8.8723632513446338E-03 Error:  8.87236E-03 ( 6.6E-19)
+    Total Salt:   4.5652120133125244E+14, Change:  -1.8602315902709960E-02 Error: -1.86023E-02 (-4.1E-17)
+    Total Heat:  -9.9572706057465037E+19, Change:   1.2115672851562500E+04 Error:  1.21157E+04 (-1.2E-16)
+MOM Day       1.750    504: En 2.048214E-08, MaxCFL  0.00057, Mass 1.335202226718E+16, Salt  34.19116536778, Temp  -1.90000000000
+    Total Energy: 41B04CF1348084AD  2.7347794050202447E+08
+    Total Mass:   1.3352022267176024E+16, Change:  -1.7295412023186137E-02 Error: -1.72954E-02 (-1.3E-18)
+    Total Salt:   4.5652120133125244E+14, Change:  -1.9927785873413085E-02 Error: -1.99278E-02 (-4.4E-17)
+    Total Heat:  -9.9572706057465020E+19, Change:   1.2458801757812500E+04 Error:  1.24588E+04 (-1.3E-16)
+MOM Day       1.875    540: En 2.024985E-08, MaxCFL  0.00056, Mass 1.335202226718E+16, Salt  34.19116536778, Temp  -1.90000000000
+    Total Energy: 41B01D9DE53E3BC4  2.7037642124309945E+08
+    Total Mass:   1.3352022267176026E+16, Change:   5.1376796856005946E-04 Error:  5.13768E-04 ( 3.8E-20)
+    Total Salt:   4.5652120133125238E+14, Change:  -1.8205469131469726E-02 Error: -1.82055E-02 (-4.0E-17)
+    Total Heat:  -9.9572706057465004E+19, Change:   1.1325821289062500E+04 Error:  1.13258E+04 (-1.1E-16)
+MOM Day       2.000    576: En 1.999928E-08, MaxCFL  0.00055, Mass 1.335202226718E+16, Salt  34.19116536778, Temp  -1.90000000000
+    Total Energy: 41AFD5224E403DFA  2.6703082312547284E+08
+    Total Mass:   1.3352022267176022E+16, Change:  -2.5046277932405693E-03 Error: -2.50463E-03 (-1.9E-19)
+    Total Salt:   4.5652120133125238E+14, Change:  -2.0277612686157229E-02 Error: -2.02776E-02 (-4.4E-17)
+    Total Heat:  -9.9572706057465004E+19, Change:   1.2079525878906250E+04 Error:  1.20795E+04 (-1.2E-16)
+MOM Day       2.125    612: En 1.972405E-08, MaxCFL  0.00054, Mass 1.335202226718E+16, Salt  34.19116536778, Temp  -1.90000000000
+    Total Energy: 41AF64FCA711AAC7  2.6335598753450605E+08
+    Total Mass:   1.3352022267176022E+16, Change:  -1.8337980580800488E-02 Error: -1.83380E-02 (-1.4E-18)
+    Total Salt:   4.5652120133125238E+14, Change:  -1.8976560592651369E-02 Error: -1.89766E-02 (-4.2E-17)
+    Total Heat:  -9.9572706057464988E+19, Change:   1.1853348632812500E+04 Error:  1.18533E+04 (-1.2E-16)
+MOM Day       2.250    648: En 1.952523E-08, MaxCFL  0.00054, Mass 1.335202226718E+16, Salt  34.19116536778, Temp  -1.90000000000
+    Total Energy: 41AF13F96302EFA6  2.6070136150573462E+08
+    Total Mass:   1.3352022267176020E+16, Change:  -1.3061599599612582E-02 Error: -1.30616E-02 (-9.8E-19)
+    Total Salt:   4.5652120133125231E+14, Change:  -1.9600410461425782E-02 Error: -1.96004E-02 (-4.3E-17)
+    Total Heat:  -9.9572706057464971E+19, Change:   1.2676337402343750E+04 Error:  1.26763E+04 (-1.3E-16)
+MOM Day       2.375    684: En 1.941430E-08, MaxCFL  0.00053, Mass 1.335202226718E+16, Salt  34.19116536778, Temp  -1.90000000000
+    Total Energy: 41AEE6C57EA3E284  2.5922015932008755E+08
+    Total Mass:   1.3352022267176022E+16, Change:  -8.4269599406809181E-03 Error: -8.42696E-03 (-6.3E-19)
+    Total Salt:   4.5652120133125231E+14, Change:  -1.8213272094726562E-02 Error: -1.82133E-02 (-4.0E-17)
+    Total Heat:  -9.9572706057464955E+19, Change:   1.1436744140625000E+04 Error:  1.14367E+04 (-1.1E-16)
+MOM Day       2.500    720: En 1.928887E-08, MaxCFL  0.00052, Mass 1.335202226718E+16, Salt  34.19116536778, Temp  -1.90000000000
+    Total Energy: 41AEB3AA1AC0A649  2.5754548537626866E+08
+    Total Mass:   1.3352022267176024E+16, Change:   5.5544927936595455E-03 Error:  5.55449E-03 ( 4.2E-19)
+    Total Salt:   4.5652120133125231E+14, Change:  -1.9583389282226561E-02 Error: -1.95834E-02 (-4.3E-17)
+    Total Heat:  -9.9572706057464955E+19, Change:   1.1785793457031250E+04 Error:  1.17858E+04 (-1.2E-16)
+MOM Day       2.625    756: En 1.910356E-08, MaxCFL  0.00051, Mass 1.335202226718E+16, Salt  34.19116536778, Temp  -1.90000000000
+    Total Energy: 41AE6827CC38BBEB  2.5507120611080870E+08
+    Total Mass:   1.3352022267176022E+16, Change:   9.0046065195498372E-03 Error:  9.00461E-03 ( 6.7E-19)
+    Total Salt:   4.5652120133125231E+14, Change:  -1.3003749847412109E-02 Error: -1.30037E-02 (-2.8E-17)
+    Total Heat:  -9.9572706057464938E+19, Change:   1.1377947753906250E+04 Error:  1.13779E+04 (-1.1E-16)
+MOM Day       2.750    792: En 1.892144E-08, MaxCFL  0.00050, Mass 1.335202226718E+16, Salt  34.19116536778, Temp  -1.90000000000
+    Total Energy: 41AE1DF1B41D096E  2.5263945005671257E+08
+    Total Mass:   1.3352022267176022E+16, Change:  -7.6265857213393545E-03 Error: -7.62659E-03 (-5.7E-19)
+    Total Salt:   4.5652120133125225E+14, Change:  -1.9757970809936524E-02 Error: -1.97580E-02 (-4.3E-17)
+    Total Heat:  -9.9572706057464922E+19, Change:   1.3299283203125000E+04 Error:  1.32993E+04 (-1.3E-16)
+MOM Day       2.875    828: En 1.880969E-08, MaxCFL  0.00049, Mass 1.335202226718E+16, Salt  34.19116536778, Temp  -1.90000000000
+    Total Energy: 41ADF0693CB9216F  2.5114742236158320E+08
+    Total Mass:   1.3352022267176022E+16, Change:  -1.3205659228069854E-03 Error: -1.32057E-03 (-9.9E-20)
+    Total Salt:   4.5652120133125225E+14, Change:  -1.8326190948486327E-02 Error: -1.83262E-02 (-4.0E-17)
+    Total Heat:  -9.9572706057464906E+19, Change:   1.1357031738281250E+04 Error:  1.13570E+04 (-1.1E-16)
+MOM Day       3.000    864: En 1.874107E-08, MaxCFL  0.00047, Mass 1.335202226718E+16, Salt  34.19116536778, Temp  -1.90000000000
+    Total Energy: 41ADD4737B0B6D27  2.5023122952231714E+08
+    Total Mass:   1.3352022267176026E+16, Change:  -2.7340120426995483E-02 Error: -2.73401E-02 (-2.0E-18)
+    Total Salt:   4.5652120133125225E+14, Change:  -1.8370819091796876E-02 Error: -1.83708E-02 (-4.0E-17)
+    Total Heat:  -9.9572706057464906E+19, Change:   1.2206843750000000E+04 Error:  1.22068E+04 (-1.2E-16)
+MOM Day       3.125    900: En 1.865362E-08, MaxCFL  0.00046, Mass 1.335202226718E+16, Salt  34.19116536778, Temp  -1.90000000000
+    Total Energy: 41ADB0D11F8CD2B7  2.4906356777504513E+08
+    Total Mass:   1.3352022267176020E+16, Change:  -9.9106530617716244E-03 Error: -9.91065E-03 (-7.4E-19)
+    Total Salt:   4.5652120133125219E+14, Change:  -1.4726716995239258E-02 Error: -1.47267E-02 (-3.2E-17)
+    Total Heat:  -9.9572706057464889E+19, Change:   1.1822214843750000E+04 Error:  1.18222E+04 (-1.2E-16)
+MOM Day       3.250    936: En 1.853800E-08, MaxCFL  0.00045, Mass 1.335202226718E+16, Salt  34.19116536778, Temp  -1.90000000000
+    Total Energy: 41AD81B4D62D3817  2.4751985108831856E+08
+    Total Mass:   1.3352022267176024E+16, Change:  -1.8499865200868555E-02 Error: -1.84999E-02 (-1.4E-18)
+    Total Salt:   4.5652120133125219E+14, Change:  -1.7108526229858399E-02 Error: -1.71085E-02 (-3.7E-17)
+    Total Heat:  -9.9572706057464873E+19, Change:   1.2223759277343750E+04 Error:  1.22238E+04 (-1.2E-16)
+MOM Day       3.375    972: En 1.844637E-08, MaxCFL  0.00044, Mass 1.335202226718E+16, Salt  34.19116536778, Temp  -1.90000000000
+    Total Energy: 41AD5C5E567DA984  2.4629636324543393E+08
+    Total Mass:   1.3352022267176020E+16, Change:  -1.8119865447334429E-02 Error: -1.81199E-02 (-1.4E-18)
+    Total Salt:   4.5652120133125219E+14, Change:  -1.8197343826293944E-02 Error: -1.81973E-02 (-4.0E-17)
+    Total Heat:  -9.9572706057464857E+19, Change:   1.2031787109375000E+04 Error:  1.20318E+04 (-1.2E-16)
+MOM Day       3.500   1008: En 1.840084E-08, MaxCFL  0.00043, Mass 1.335202226718E+16, Salt  34.19116536778, Temp  -1.90000000000
+    Total Energy: 41AD49D14F2C7A38  2.4568848758686996E+08
+    Total Mass:   1.3352022267176022E+16, Change:   3.0712543442331861E-04 Error:  3.07125E-04 ( 2.3E-20)
+    Total Salt:   4.5652120133125219E+14, Change:  -1.9862262725830079E-02 Error: -1.98623E-02 (-4.4E-17)
+    Total Heat:  -9.9572706057464857E+19, Change:   1.2373625488281250E+04 Error:  1.23736E+04 (-1.2E-16)
+MOM Day       3.625   1044: En 1.835950E-08, MaxCFL  0.00042, Mass 1.335202226718E+16, Salt  34.19116536778, Temp  -1.90000000000
+    Total Energy: 41AD38F841A61FAC  2.4513641682446039E+08
+    Total Mass:   1.3352022267176020E+16, Change:   2.3857446626552575E-03 Error:  2.38574E-03 ( 1.8E-19)
+    Total Salt:   4.5652120133125212E+14, Change:  -1.5197538375854492E-02 Error: -1.51975E-02 (-3.3E-17)
+    Total Heat:  -9.9572706057464840E+19, Change:   1.1580608886718750E+04 Error:  1.15806E+04 (-1.2E-16)
+MOM Day       3.750   1080: En 1.830243E-08, MaxCFL  0.00041, Mass 1.335202226718E+16, Salt  34.19116536778, Temp  -1.90000000000
+    Total Energy: 41AD21B7B69796C6  2.4437449129607219E+08
+    Total Mass:   1.3352022267176024E+16, Change:  -1.0370920792503405E-02 Error: -1.03709E-02 (-7.8E-19)
+    Total Salt:   4.5652120133125212E+14, Change:  -1.5267087936401368E-02 Error: -1.52671E-02 (-3.3E-17)
+    Total Heat:  -9.9572706057464824E+19, Change:   1.0953081054687500E+04 Error:  1.09531E+04 (-1.1E-16)
+MOM Day       3.875   1116: En 1.823890E-08, MaxCFL  0.00040, Mass 1.335202226718E+16, Salt  34.19116536778, Temp  -1.90000000000
+    Total Energy: 41AD07D4DC7F06D2  2.4352625424809891E+08
+    Total Mass:   1.3352022267176024E+16, Change:  -1.5343593503047401E-02 Error: -1.53436E-02 (-1.1E-18)
+    Total Salt:   4.5652120133125212E+14, Change:  -2.0751600265502931E-02 Error: -2.07516E-02 (-4.5E-17)
+    Total Heat:  -9.9572706057464824E+19, Change:   1.2763167968750000E+04 Error:  1.27632E+04 (-1.3E-16)
+MOM Day       4.000   1152: En 1.820779E-08, MaxCFL  0.00039, Mass 1.335202226718E+16, Salt  34.19116536778, Temp  -1.90000000000
+    Total Energy: 41ACFB271DC0767C  2.4311079887590396E+08
+    Total Mass:   1.3352022267176022E+16, Change:  -9.9204272037868996E-03 Error: -9.92043E-03 (-7.4E-19)
+    Total Salt:   4.5652120133125212E+14, Change:  -1.9599853515625001E-02 Error: -1.95999E-02 (-4.3E-17)
+    Total Heat:  -9.9572706057464807E+19, Change:   1.1911442871093750E+04 Error:  1.19114E+04 (-1.2E-16)
+MOM Day       4.125   1188: En 1.817466E-08, MaxCFL  0.00038, Mass 1.335202226718E+16, Salt  34.19116536778, Temp  -1.90000000000
+    Total Energy: 41ACEDA7045AA596  2.4266841817704457E+08
+    Total Mass:   1.3352022267176026E+16, Change:   4.9007392697552549E-03 Error:  4.90074E-03 ( 3.7E-19)
+    Total Salt:   4.5652120133125206E+14, Change:  -1.6895460128784179E-02 Error: -1.68955E-02 (-3.7E-17)
+    Total Heat:  -9.9572706057464791E+19, Change:   1.2056474609375000E+04 Error:  1.20565E+04 (-1.2E-16)
+MOM Day       4.250   1224: En 1.813301E-08, MaxCFL  0.00038, Mass 1.335202226718E+16, Salt  34.19116536778, Temp  -1.90000000000
+    Total Energy: 41ACDCAE47D1667F  2.4211229190898511E+08
+    Total Mass:   1.3352022267176022E+16, Change:  -2.6689771865531526E-02 Error: -2.66898E-02 (-2.0E-18)
+    Total Salt:   4.5652120133125206E+14, Change:  -1.6350711822509766E-02 Error: -1.63507E-02 (-3.6E-17)
+    Total Heat:  -9.9572706057464775E+19, Change:   1.1721607421875000E+04 Error:  1.17216E+04 (-1.2E-16)
+MOM Day       4.375   1260: En 1.810676E-08, MaxCFL  0.00037, Mass 1.335202226718E+16, Salt  34.19116536778, Temp  -1.90000000000
+    Total Energy: 41ACD1FC24FA7650  2.4176181048918390E+08
+    Total Mass:   1.3352022267176022E+16, Change:   1.4044524968263649E-02 Error:  1.40445E-02 ( 1.1E-18)
+    Total Salt:   4.5652120133125206E+14, Change:  -1.5937358856201171E-02 Error: -1.59374E-02 (-3.5E-17)
+    Total Heat:  -9.9572706057464775E+19, Change:   1.2065903320312500E+04 Error:  1.20659E+04 (-1.2E-16)
+MOM Day       4.500   1296: En 1.807324E-08, MaxCFL  0.00036, Mass 1.335202226718E+16, Salt  34.19116536778, Temp  -1.90000000000
+    Total Energy: 41ACC453B9F1E2BB  2.4131426897243294E+08
+    Total Mass:   1.3352022267176022E+16, Change:   1.5157023268128657E-03 Error:  1.51570E-03 ( 1.1E-19)
+    Total Salt:   4.5652120133125200E+14, Change:  -1.8001909255981444E-02 Error: -1.80019E-02 (-3.9E-17)
+    Total Heat:  -9.9572706057464758E+19, Change:   1.2381055664062500E+04 Error:  1.23811E+04 (-1.2E-16)
+MOM Day       4.625   1332: En 1.803399E-08, MaxCFL  0.00036, Mass 1.335202226718E+16, Salt  34.19116536778, Temp  -1.90000000000
+    Total Energy: 41ACB456287DB6E9  2.4079029224553612E+08
+    Total Mass:   1.3352022267176020E+16, Change:  -1.4316778625998346E-02 Error: -1.43168E-02 (-1.1E-18)
+    Total Salt:   4.5652120133125200E+14, Change:  -1.9821186065673829E-02 Error: -1.98212E-02 (-4.3E-17)
+    Total Heat:  -9.9572706057464742E+19, Change:   1.2417701660156250E+04 Error:  1.24177E+04 (-1.2E-16)
+MOM Day       4.750   1368: En 1.801769E-08, MaxCFL  0.00035, Mass 1.335202226718E+16, Salt  34.19116536778, Temp  -1.90000000000
+    Total Energy: 41ACADB147320B1C  2.4057257959774101E+08
+    Total Mass:   1.3352022267176022E+16, Change:  -1.4817282530049825E-02 Error: -1.48173E-02 (-1.1E-18)
+    Total Salt:   4.5652120133125200E+14, Change:  -1.8390319824218751E-02 Error: -1.83903E-02 (-4.0E-17)
+    Total Heat:  -9.9572706057464726E+19, Change:   1.2098050781250000E+04 Error:  1.20981E+04 (-1.2E-16)
+MOM Day       4.875   1404: En 1.798838E-08, MaxCFL  0.00035, Mass 1.335202226718E+16, Salt  34.19116536778, Temp  -1.90000000000
+    Total Energy: 41ACA1BF931B2B07  2.4018119355306265E+08
+    Total Mass:   1.3352022267176020E+16, Change:  -1.8173357934443322E-02 Error: -1.81734E-02 (-1.4E-18)
+    Total Salt:   4.5652120133125200E+14, Change:  -1.8695682525634767E-02 Error: -1.86957E-02 (-4.1E-17)
+    Total Heat:  -9.9572706057464726E+19, Change:   1.1342242187500000E+04 Error:  1.13422E+04 (-1.1E-16)
+MOM Day       5.000   1440: En 1.794325E-08, MaxCFL  0.00035, Mass 1.335202226718E+16, Salt  34.19116536778, Temp  -1.90000000000
+    Total Energy: 41AC8F5C7B4B9863  2.3957868564764699E+08
+    Total Mass:   1.3352022267176020E+16, Change:  -4.4142790698464399E-02 Error: -4.41428E-02 (-3.3E-18)
+    Total Salt:   4.5652120133125194E+14, Change:  -1.8893836975097656E-02 Error: -1.88938E-02 (-4.1E-17)
+    Total Heat:  -9.9572706057464709E+19, Change:   1.2707701660156250E+04 Error:  1.27077E+04 (-1.3E-16)
+MOM Day       5.125   1476: En 1.791785E-08, MaxCFL  0.00035, Mass 1.335202226718E+16, Salt  34.19116536778, Temp  -1.90000000000
+    Total Energy: 41AC850274D1975F  2.3923948240935799E+08
+    Total Mass:   1.3352022267176024E+16, Change:   1.0726809391677699E-03 Error:  1.07268E-03 ( 8.0E-20)
+    Total Salt:   4.5652120133125194E+14, Change:  -1.7647329330444335E-02 Error: -1.76473E-02 (-3.9E-17)
+    Total Heat:  -9.9572706057464693E+19, Change:   1.1981273437500000E+04 Error:  1.19813E+04 (-1.2E-16)
+MOM Day       5.250   1512: En 1.788368E-08, MaxCFL  0.00035, Mass 1.335202226718E+16, Salt  34.19116536778, Temp  -1.90000000000
+    Total Energy: 41AC77161E343C5A  2.3878324710202295E+08
+    Total Mass:   1.3352022267176022E+16, Change:   1.0042434419645892E-03 Error:  1.00424E-03 ( 7.5E-20)
+    Total Salt:   4.5652120133125194E+14, Change:  -1.5783769607543945E-02 Error: -1.57838E-02 (-3.5E-17)
+    Total Heat:  -9.9572706057464676E+19, Change:   1.1004564453125000E+04 Error:  1.10046E+04 (-1.1E-16)
+MOM Day       5.375   1548: En 1.782976E-08, MaxCFL  0.00035, Mass 1.335202226718E+16, Salt  34.19116536778, Temp  -1.90000000000
+    Total Energy: 41AC611E4357DBD2  2.3806339367159897E+08
+    Total Mass:   1.3352022267176022E+16, Change:  -1.3661840062363054E-02 Error: -1.36618E-02 (-1.0E-18)
+    Total Salt:   4.5652120133125188E+14, Change:  -1.8093507766723634E-02 Error: -1.80935E-02 (-4.0E-17)
+    Total Heat:  -9.9572706057464676E+19, Change:   1.1445778808593750E+04 Error:  1.14458E+04 (-1.1E-16)
+MOM Day       5.500   1584: En 1.779724E-08, MaxCFL  0.00035, Mass 1.335202226718E+16, Salt  34.19116536778, Temp  -1.90000000000
+    Total Energy: 41AC53DE1C410E8A  2.3762919812706405E+08
+    Total Mass:   1.3352022267176024E+16, Change:   1.6728266193196456E-03 Error:  1.67283E-03 ( 1.3E-19)
+    Total Salt:   4.5652120133125188E+14, Change:  -1.7271518707275391E-02 Error: -1.72715E-02 (-3.8E-17)
+    Total Heat:  -9.9572706057464660E+19, Change:   1.1560306152343750E+04 Error:  1.15603E+04 (-1.2E-16)
+MOM Day       5.625   1620: En 1.776398E-08, MaxCFL  0.00035, Mass 1.335202226718E+16, Salt  34.19116536778, Temp  -1.90000000000
+    Total Energy: 41AC46502213E98E  2.3718504103889126E+08
+    Total Mass:   1.3352022267176020E+16, Change:   3.9276729642222343E-03 Error:  3.92767E-03 ( 2.9E-19)
+    Total Salt:   4.5652120133125188E+14, Change:  -1.6639749526977540E-02 Error: -1.66397E-02 (-3.6E-17)
+    Total Heat:  -9.9572706057464644E+19, Change:   1.2159411621093750E+04 Error:  1.21594E+04 (-1.2E-16)
+MOM Day       5.750   1656: En 1.770014E-08, MaxCFL  0.00035, Mass 1.335202226718E+16, Salt  34.19116536778, Temp  -1.90000000000
+    Total Energy: 41AC2C4D47D82C69  2.3633270792221382E+08
+    Total Mass:   1.3352022267176020E+16, Change:   4.2690244847419590E-03 Error:  4.26902E-03 ( 3.2E-19)
+    Total Salt:   4.5652120133125188E+14, Change:  -1.8096208572387695E-02 Error: -1.80962E-02 (-4.0E-17)
+    Total Heat:  -9.9572706057464644E+19, Change:   1.1020682617187500E+04 Error:  1.10207E+04 (-1.1E-16)
+MOM Day       5.875   1692: En 1.765510E-08, MaxCFL  0.00035, Mass 1.335202226718E+16, Salt  34.19116536778, Temp  -1.90000000000
+    Total Energy: 41AC19F22B4AED41  2.3573122164634135E+08
+    Total Mass:   1.3352022267176022E+16, Change:  -6.9502502349594094E-03 Error: -6.95025E-03 (-5.2E-19)
+    Total Salt:   4.5652120133125181E+14, Change:  -1.9065896987915040E-02 Error: -1.90659E-02 (-4.2E-17)
+    Total Heat:  -9.9572706057464627E+19, Change:   1.2117805175781250E+04 Error:  1.21178E+04 (-1.2E-16)
+MOM Day       6.000   1728: En 1.764116E-08, MaxCFL  0.00035, Mass 1.335202226718E+16, Salt  34.19116536778, Temp  -1.90000000000
+    Total Energy: 41AC144455E94491  2.3554513095560125E+08
+    Total Mass:   1.3352022267176022E+16, Change:  -4.9550981191930875E-03 Error: -4.95510E-03 (-3.7E-19)
+    Total Salt:   4.5652120133125181E+14, Change:  -1.4852039337158203E-02 Error: -1.48520E-02 (-3.3E-17)
+    Total Heat:  -9.9572706057464611E+19, Change:   1.1336797851562500E+04 Error:  1.13368E+04 (-1.1E-16)
+MOM Day       6.125   1764: En 1.759996E-08, MaxCFL  0.00035, Mass 1.335202226718E+16, Salt  34.19116536778, Temp  -1.90000000000
+    Total Energy: 41AC037B2008608D  2.3499508801636162E+08
+    Total Mass:   1.3352022267176024E+16, Change:  -1.6094140728130316E-02 Error: -1.60941E-02 (-1.2E-18)
+    Total Salt:   4.5652120133125181E+14, Change:  -1.9642107009887697E-02 Error: -1.96421E-02 (-4.3E-17)
+    Total Heat:  -9.9572706057464611E+19, Change:   1.1287243164062500E+04 Error:  1.12872E+04 (-1.1E-16)
+MOM Day       6.250   1800: En 1.753760E-08, MaxCFL  0.00035, Mass 1.335202226718E+16, Salt  34.19116536778, Temp  -1.90000000000
+    Total Energy: 41ABEA12297BA83C  2.3416245274151790E+08
+    Total Mass:   1.3352022267176024E+16, Change:  -8.4955061770733697E-03 Error: -8.49551E-03 (-6.4E-19)
+    Total Salt:   4.5652120133125181E+14, Change:  -1.9116868972778322E-02 Error: -1.91169E-02 (-4.2E-17)
+    Total Heat:  -9.9572706057464594E+19, Change:   1.1620645996093750E+04 Error:  1.16206E+04 (-1.2E-16)
+MOM Day       6.375   1836: En 1.750826E-08, MaxCFL  0.00034, Mass 1.335202226718E+16, Salt  34.19116536778, Temp  -1.90000000000
+    Total Energy: 41ABDE1CEE19FFD9  2.3377061505078009E+08
+    Total Mass:   1.3352022267176022E+16, Change:  -4.3991878973363490E-03 Error: -4.39919E-03 (-3.3E-19)
+    Total Salt:   4.5652120133125175E+14, Change:  -1.6698179244995118E-02 Error: -1.66982E-02 (-3.7E-17)
+    Total Heat:  -9.9572706057464578E+19, Change:   1.1636486816406250E+04 Error:  1.16365E+04 (-1.2E-16)
+MOM Day       6.500   1872: En 1.749501E-08, MaxCFL  0.00034, Mass 1.335202226718E+16, Salt  34.19116536778, Temp  -1.90000000000
+    Total Energy: 41ABD8B70C282360  2.3359373407839489E+08
+    Total Mass:   1.3352022267176022E+16, Change:  -2.6874238348890432E-02 Error: -2.68742E-02 (-2.0E-18)
+    Total Salt:   4.5652120133125175E+14, Change:  -1.7550622940063477E-02 Error: -1.75506E-02 (-3.8E-17)
+    Total Heat:  -9.9572706057464562E+19, Change:   1.0983654296875000E+04 Error:  1.09837E+04 (-1.1E-16)
+MOM Day       6.625   1908: En 1.745113E-08, MaxCFL  0.00034, Mass 1.335202226718E+16, Salt  34.19116536778, Temp  -1.90000000000
+    Total Energy: 41ABC6D5F028B87F  2.3300786407953259E+08
+    Total Mass:   1.3352022267176026E+16, Change:   1.0905903911502670E-02 Error:  1.09059E-02 ( 8.2E-19)
+    Total Salt:   4.5652120133125175E+14, Change:  -1.5004281997680665E-02 Error: -1.50043E-02 (-3.3E-17)
+    Total Heat:  -9.9572706057464562E+19, Change:   1.1043332031250000E+04 Error:  1.10433E+04 (-1.1E-16)
+MOM Day       6.750   1944: En 1.739858E-08, MaxCFL  0.00034, Mass 1.335202226718E+16, Salt  34.19116536778, Temp  -1.90000000000
+    Total Energy: 41ABB16CBCCFBDF2  2.3230627040574604E+08
+    Total Mass:   1.3352022267176022E+16, Change:  -4.1443187963958912E-03 Error: -4.14432E-03 (-3.1E-19)
+    Total Salt:   4.5652120133125169E+14, Change:  -1.8425020217895507E-02 Error: -1.84250E-02 (-4.0E-17)
+    Total Heat:  -9.9572706057464545E+19, Change:   1.0968116699218750E+04 Error:  1.09681E+04 (-1.1E-16)
+MOM Day       6.875   1980: En 1.737216E-08, MaxCFL  0.00034, Mass 1.335202226718E+16, Salt  34.19116536778, Temp  -1.90000000000
+    Total Energy: 41ABA6A8A45F195A  2.3195349018574029E+08
+    Total Mass:   1.3352022267176024E+16, Change:  -1.6857310049005522E-02 Error: -1.68573E-02 (-1.3E-18)
+    Total Salt:   4.5652120133125169E+14, Change:  -1.9264490127563476E-02 Error: -1.92645E-02 (-4.2E-17)
+    Total Heat:  -9.9572706057464529E+19, Change:   1.1604801269531250E+04 Error:  1.16048E+04 (-1.2E-16)
+MOM Day       7.000   2016: En 1.734285E-08, MaxCFL  0.00033, Mass 1.335202226718E+16, Salt  34.19116536778, Temp  -1.90000000000
+    Total Energy: 41AB9AB69A8B9741  2.3156206127263835E+08
+    Total Mass:   1.3352022267176022E+16, Change:   1.3833564990938371E-03 Error:  1.38336E-03 ( 1.0E-19)
+    Total Salt:   4.5652120133125169E+14, Change:  -1.6459926605224610E-02 Error: -1.64599E-02 (-3.6E-17)
+    Total Heat:  -9.9572706057464529E+19, Change:   1.1108004882812500E+04 Error:  1.11080E+04 (-1.1E-16)
+MOM Day       7.125   2052: En 1.729765E-08, MaxCFL  0.00033, Mass 1.335202226718E+16, Salt  34.19116536778, Temp  -1.90000000000
+    Total Energy: 41AB884C377707C2  2.3095861973248106E+08
+    Total Mass:   1.3352022267176024E+16, Change:   4.1656578693052074E-03 Error:  4.16566E-03 ( 3.1E-19)
+    Total Salt:   4.5652120133125169E+14, Change:  -1.8509801864624024E-02 Error: -1.85098E-02 (-4.1E-17)
+    Total Heat:  -9.9572706057464513E+19, Change:   1.0465893066406250E+04 Error:  1.04659E+04 (-1.1E-16)
+MOM Day       7.250   2088: En 1.723840E-08, MaxCFL  0.00033, Mass 1.335202226718E+16, Salt  34.19116536778, Temp  -1.90000000000
+    Total Energy: 41AB702732E72811  2.3016744945147756E+08
+    Total Mass:   1.3352022267176022E+16, Change:  -4.4428312448854335E-03 Error: -4.44283E-03 (-3.3E-19)
+    Total Salt:   4.5652120133125156E+14, Change:  -1.6246812820434570E-02 Error: -1.62468E-02 (-3.6E-17)
+    Total Heat:  -9.9572706057464496E+19, Change:   1.0587021972656250E+04 Error:  1.05870E+04 (-1.1E-16)
+MOM Day       7.375   2124: En 1.719882E-08, MaxCFL  0.00033, Mass 1.335202226718E+16, Salt  34.19116536778, Temp  -1.90000000000
+    Total Energy: 41AB6006C6B5C11A  2.2963901135498887E+08
+    Total Mass:   1.3352022267176022E+16, Change:   6.8305046165453367E-03 Error:  6.83050E-03 ( 5.1E-19)
+    Total Salt:   4.5652120133125156E+14, Change:  -1.7870286941528320E-02 Error: -1.78703E-02 (-3.9E-17)
+    Total Heat:  -9.9572706057464496E+19, Change:   1.1413079589843750E+04 Error:  1.14131E+04 (-1.1E-16)
+MOM Day       7.500   2160: En 1.715353E-08, MaxCFL  0.00032, Mass 1.335202226718E+16, Salt  34.19116536778, Temp  -1.90000000000
+    Total Energy: 41AB4D930B754099  2.2903437372900847E+08
+    Total Mass:   1.3352022267176024E+16, Change:  -8.8427673171920327E-03 Error: -8.84277E-03 (-6.6E-19)
+    Total Salt:   4.5652120133125156E+14, Change:  -1.6897119522094727E-02 Error: -1.68971E-02 (-3.7E-17)
+    Total Heat:  -9.9572706057464480E+19, Change:   9.9993037109375000E+03 Error:  9.99930E+03 (-1.0E-16)
+MOM Day       7.625   2196: En 1.709848E-08, MaxCFL  0.00032, Mass 1.335202226718E+16, Salt  34.19116536778, Temp  -1.90000000000
+    Total Energy: 41AB372418BD50A8  2.2829927636975598E+08
+    Total Mass:   1.3352022267176024E+16, Change:   3.4646540770786986E-04 Error:  3.46465E-04 ( 2.6E-20)
+    Total Salt:   4.5652120133125156E+14, Change:  -1.7881023406982423E-02 Error: -1.78810E-02 (-3.9E-17)
+    Total Heat:  -9.9572706057464480E+19, Change:   1.0285687500000000E+04 Error:  1.02857E+04 (-1.0E-16)
+MOM Day       7.750   2232: En 1.704293E-08, MaxCFL  0.00032, Mass 1.335202226718E+16, Salt  34.19116536778, Temp  -1.90000000000
+    Total Energy: 41AB20811DCA237C  2.2755751889480197E+08
+    Total Mass:   1.3352022267176024E+16, Change:  -2.5811228227214586E-02 Error: -2.58112E-02 (-1.9E-18)
+    Total Salt:   4.5652120133125150E+14, Change:  -1.8900678634643554E-02 Error: -1.89007E-02 (-4.1E-17)
+    Total Heat:  -9.9572706057464463E+19, Change:   1.0959634277343750E+04 Error:  1.09596E+04 (-1.1E-16)
+MOM Day       7.875   2268: En 1.698822E-08, MaxCFL  0.00032, Mass 1.335202226718E+16, Salt  34.19116536778, Temp  -1.90000000000
+    Total Energy: 41AB0A36B2FF2FE3  2.2682709749841222E+08
+    Total Mass:   1.3352022267176022E+16, Change:   4.3182287456089005E-03 Error:  4.31823E-03 ( 3.2E-19)
+    Total Salt:   4.5652120133125150E+14, Change:  -1.4423385620117187E-02 Error: -1.44234E-02 (-3.2E-17)
+    Total Heat:  -9.9572706057464447E+19, Change:   9.6188144531250000E+03 Error:  9.61881E+03 (-9.7E-17)
+MOM Day       8.000   2304: En 1.692937E-08, MaxCFL  0.00031, Mass 1.335202226718E+16, Salt  34.19116536778, Temp  -1.90000000000
+    Total Energy: 41AAF23BA1BB2495  2.2604129686551347E+08
+    Total Mass:   1.3352022267176024E+16, Change:   5.3125194753625427E-03 Error:  5.31252E-03 ( 4.0E-19)
+    Total Salt:   4.5652120133125150E+14, Change:  -1.7541597366333008E-02 Error: -1.75416E-02 (-3.8E-17)
+    Total Heat:  -9.9572706057464447E+19, Change:   9.5920161132812500E+03 Error:  9.59202E+03 (-9.6E-17)
+MOM Day       8.125   2340: En 1.686848E-08, MaxCFL  0.00031, Mass 1.335202226718E+16, Salt  34.19116536778, Temp  -1.90000000000
+    Total Energy: 41AAD96C4D32C11C  2.2522832659912956E+08
+    Total Mass:   1.3352022267176024E+16, Change:  -6.9543268840034445E-03 Error: -6.95433E-03 (-5.2E-19)
+    Total Salt:   4.5652120133125144E+14, Change:  -1.6625808715820312E-02 Error: -1.66258E-02 (-3.6E-17)
+    Total Heat:  -9.9572706057464431E+19, Change:   9.6577963867187500E+03 Error:  9.65780E+03 (-9.7E-17)
+MOM Day       8.250   2376: En 1.680456E-08, MaxCFL  0.00031, Mass 1.335202226718E+16, Salt  34.19116536778, Temp  -1.90000000000
+    Total Energy: 41AABF608D238E7F  2.2437485456944653E+08
+    Total Mass:   1.3352022267176020E+16, Change:   7.9648646213763066E-03 Error:  7.96486E-03 ( 6.0E-19)
+    Total Salt:   4.5652120133125144E+14, Change:  -1.8918172836303711E-02 Error: -1.89182E-02 (-4.1E-17)
+    Total Heat:  -9.9572706057464414E+19, Change:   9.9392055664062500E+03 Error:  9.93921E+03 (-1.0E-16)
+MOM Day       8.375   2412: En 1.674018E-08, MaxCFL  0.00031, Mass 1.335202226718E+16, Salt  34.19116536778, Temp  -1.90000000000
+    Total Energy: 41AAA5246B6A46D9  2.2351518970757177E+08
+    Total Mass:   1.3352022267176022E+16, Change:  -9.5521145749391471E-03 Error: -9.55211E-03 (-7.2E-19)
+    Total Salt:   4.5652120133125144E+14, Change:  -1.7166963577270510E-02 Error: -1.71670E-02 (-3.8E-17)
+    Total Heat:  -9.9572706057464414E+19, Change:   9.5616875000000000E+03 Error:  9.56169E+03 (-9.6E-17)
+MOM Day       8.500   2448: En 1.667845E-08, MaxCFL  0.00031, Mass 1.335202226718E+16, Salt  34.19116536778, Temp  -1.90000000000
+    Total Energy: 41AA8BFE2D7DD7AF  2.2269109474578616E+08
+    Total Mass:   1.3352022267176022E+16, Change:  -1.1354907660082122E-02 Error: -1.13549E-02 (-8.5E-19)
+    Total Salt:   4.5652120133125144E+14, Change:  -1.7067579269409178E-02 Error: -1.70676E-02 (-3.7E-17)
+    Total Heat:  -9.9572706057464398E+19, Change:   1.0500317382812500E+04 Error:  1.05003E+04 (-1.1E-16)
+MOM Day       8.625   2484: En 1.661562E-08, MaxCFL  0.00031, Mass 1.335202226718E+16, Salt  34.19116536778, Temp  -1.90000000000
+    Total Energy: 41AA726368203C34  2.2185208406295931E+08
+    Total Mass:   1.3352022267176024E+16, Change:   6.2133781554176383E-03 Error:  6.21338E-03 ( 4.7E-19)
+    Total Salt:   4.5652120133125138E+14, Change:  -1.8330102920532228E-02 Error: -1.83301E-02 (-4.0E-17)
+    Total Heat:  -9.9572706057464398E+19, Change:   9.3198208007812500E+03 Error:  9.31982E+03 (-9.4E-17)
+MOM Day       8.750   2520: En 1.656297E-08, MaxCFL  0.00031, Mass 1.335202226718E+16, Salt  34.19116536778, Temp  -1.90000000000
+    Total Energy: 41AA5CEF8E5166F4  2.2114912715898860E+08
+    Total Mass:   1.3352022267176024E+16, Change:  -1.0351233387238257E-02 Error: -1.03512E-02 (-7.8E-19)
+    Total Salt:   4.5652120133125138E+14, Change:  -2.1267120361328124E-02 Error: -2.12671E-02 (-4.7E-17)
+    Total Heat:  -9.9572706057464381E+19, Change:   9.9295546875000000E+03 Error:  9.92955E+03 (-1.0E-16)
+MOM Day       8.875   2556: En 1.651682E-08, MaxCFL  0.00031, Mass 1.335202226718E+16, Salt  34.19116536778, Temp  -1.90000000000
+    Total Energy: 41AA4A21605ED73D  2.2053291218523589E+08
+    Total Mass:   1.3352022267176022E+16, Change:   5.1448142793632671E-03 Error:  5.14481E-03 ( 3.9E-19)
+    Total Salt:   4.5652120133125138E+14, Change:  -1.8061454772949220E-02 Error: -1.80615E-02 (-4.0E-17)
+    Total Heat:  -9.9572706057464381E+19, Change:   9.1592968750000000E+03 Error:  9.15930E+03 (-9.2E-17)
+MOM Day       9.000   2592: En 1.646487E-08, MaxCFL  0.00031, Mass 1.335202226718E+16, Salt  34.19116536778, Temp  -1.90000000000
+    Total Energy: 41AA34F61DA48198  2.1983924682130122E+08
+    Total Mass:   1.3352022267176020E+16, Change:  -1.0902590551241743E-02 Error: -1.09026E-02 (-8.2E-19)
+    Total Salt:   4.5652120133125131E+14, Change:  -1.8568164825439454E-02 Error: -1.85682E-02 (-4.1E-17)
+    Total Heat:  -9.9572706057464365E+19, Change:   9.5044077148437500E+03 Error:  9.50441E+03 (-9.5E-17)
+MOM Day       9.125   2628: En 1.642201E-08, MaxCFL  0.00032, Mass 1.335202226718E+16, Salt  34.19116536778, Temp  -1.90000000000
+    Total Energy: 41AA237FFB8B0FBD  2.1926706977160445E+08
+    Total Mass:   1.3352022267176024E+16, Change:  -9.6808500883285263E-03 Error: -9.68085E-03 (-7.3E-19)
+    Total Salt:   4.5652120133125131E+14, Change:  -1.6131080627441407E-02 Error: -1.61311E-02 (-3.5E-17)
+    Total Heat:  -9.9572706057464349E+19, Change:   9.7908564453125000E+03 Error:  9.79086E+03 (-9.8E-17)
+MOM Day       9.250   2664: En 1.638901E-08, MaxCFL  0.00032, Mass 1.335202226718E+16, Salt  34.19116536778, Temp  -1.90000000000
+    Total Energy: 41AA160D8128ACEA  2.1882643257944423E+08
+    Total Mass:   1.3352022267176022E+16, Change:  -1.9757442416795185E-02 Error: -1.97574E-02 (-1.5E-18)
+    Total Salt:   4.5652120133125131E+14, Change:  -1.9649541854858399E-02 Error: -1.96495E-02 (-4.3E-17)
+    Total Heat:  -9.9572706057464349E+19, Change:   9.9168447265625000E+03 Error:  9.91684E+03 (-1.0E-16)
+MOM Day       9.375   2700: En 1.634614E-08, MaxCFL  0.00032, Mass 1.335202226718E+16, Salt  34.19116536778, Temp  -1.90000000000
+    Total Energy: 41AA0495E9ABDF66  2.1825406883568877E+08
+    Total Mass:   1.3352022267176024E+16, Change:  -4.9527694996984763E-03 Error: -4.95277E-03 (-3.7E-19)
+    Total Salt:   4.5652120133125131E+14, Change:  -1.6114229202270507E-02 Error: -1.61142E-02 (-3.5E-17)
+    Total Heat:  -9.9572706057464332E+19, Change:   9.2516455078125000E+03 Error:  9.25165E+03 (-9.3E-17)
+MOM Day       9.500   2736: En 1.629498E-08, MaxCFL  0.00032, Mass 1.335202226718E+16, Salt  34.19116536778, Temp  -1.90000000000
+    Total Energy: 41A9EFBD3C69B487  2.1757097420645544E+08
+    Total Mass:   1.3352022267176024E+16, Change:   1.8498466452418663E-02 Error:  1.84985E-02 ( 1.4E-18)
+    Total Salt:   4.5652120133125125E+14, Change:  -1.6988706588745118E-02 Error: -1.69887E-02 (-3.7E-17)
+    Total Heat:  -9.9572706057464332E+19, Change:   9.1434516601562500E+03 Error:  9.14345E+03 (-9.2E-17)
+MOM Day       9.625   2772: En 1.625144E-08, MaxCFL  0.00032, Mass 1.335202226718E+16, Salt  34.19116536778, Temp  -1.90000000000
+    Total Energy: 41A9DDFECFF15711  2.1698954397136739E+08
+    Total Mass:   1.3352022267176022E+16, Change:   3.7685465187041793E-02 Error:  3.76855E-02 ( 2.8E-18)
+    Total Salt:   4.5652120133125125E+14, Change:  -1.4873489379882813E-02 Error: -1.48735E-02 (-3.3E-17)
+    Total Heat:  -9.9572706057464316E+19, Change:   9.1713496093750000E+03 Error:  9.17135E+03 (-9.2E-17)
+MOM Day       9.750   2808: En 1.620747E-08, MaxCFL  0.00032, Mass 1.335202226718E+16, Salt  34.19116536778, Temp  -1.90000000000
+    Total Energy: 41A9CC14DCC5E76F  2.1640254238653132E+08
+    Total Mass:   1.3352022267176024E+16, Change:  -1.1519099583279643E-03 Error: -1.15191E-03 (-8.6E-20)
+    Total Salt:   4.5652120133125125E+14, Change:  -1.9708127975463868E-02 Error: -1.97081E-02 (-4.3E-17)
+    Total Heat:  -9.9572706057464316E+19, Change:   8.9935493164062500E+03 Error:  8.99355E+03 (-9.0E-17)
+MOM Day       9.875   2844: En 1.614781E-08, MaxCFL  0.00032, Mass 1.335202226718E+16, Salt  34.19116536778, Temp  -1.90000000000
+    Total Energy: 41A9B3C56CA358F3  2.1560594231903800E+08
+    Total Mass:   1.3352022267176022E+16, Change:  -8.6142005785350105E-03 Error: -8.61420E-03 (-6.5E-19)
+    Total Salt:   4.5652120133125125E+14, Change:  -1.6310409545898439E-02 Error: -1.63104E-02 (-3.6E-17)
+    Total Heat:  -9.9572706057464300E+19, Change:   8.5530244140625000E+03 Error:  8.55302E+03 (-8.6E-17)
+MOM Day      10.000   2880: En 1.607983E-08, MaxCFL  0.00032, Mass 1.335202226718E+16, Salt  34.19116536778, Temp  -1.90000000000
+    Total Energy: 41A998120EF39D0E  2.1469824747580761E+08
+    Total Mass:   1.3352022267176022E+16, Change:  -1.5729818627046990E-02 Error: -1.57298E-02 (-1.2E-18)
+    Total Salt:   4.5652120133125119E+14, Change:  -1.9297922134399414E-02 Error: -1.92979E-02 (-4.2E-17)
+    Total Heat:  -9.9572706057464283E+19, Change:   8.3452666015625000E+03 Error:  8.34527E+03 (-8.4E-17)
+MOM Day      10.125   2916: En 1.601926E-08, MaxCFL  0.00032, Mass 1.335202226718E+16, Salt  34.19116536778, Temp  -1.90000000000
+    Total Energy: 41A97F6393E762A2  2.1388948195192438E+08
+    Total Mass:   1.3352022267176024E+16, Change:   8.0718065536759358E-03 Error:  8.07181E-03 ( 6.0E-19)
+    Total Salt:   4.5652120133125119E+14, Change:  -2.0767864227294923E-02 Error: -2.07679E-02 (-4.5E-17)
+    Total Heat:  -9.9572706057464283E+19, Change:   7.6851420898437500E+03 Error:  7.68514E+03 (-7.7E-17)
+MOM Day      10.250   2952: En 1.595166E-08, MaxCFL  0.00032, Mass 1.335202226718E+16, Salt  34.19116536778, Temp  -1.90000000000
+    Total Energy: 41A963D89464D4E2  2.1298695419693667E+08
+    Total Mass:   1.3352022267176024E+16, Change:   5.8812536015261868E-03 Error:  5.88125E-03 ( 4.4E-19)
+    Total Salt:   4.5652120133125119E+14, Change:  -1.6502389907836916E-02 Error: -1.65024E-02 (-3.6E-17)
+    Total Heat:  -9.9572706057464283E+19, Change:   8.2416250000000000E+03 Error:  8.24162E+03 (-8.3E-17)
+MOM Day      10.375   2988: En 1.586831E-08, MaxCFL  0.00032, Mass 1.335202226718E+16, Salt  34.19116536778, Temp  -1.90000000000
+    Total Energy: 41A941E256AB60A7  2.1187409133472177E+08
+    Total Mass:   1.3352022267176020E+16, Change:  -2.1384677851584030E-02 Error: -2.13847E-02 (-1.6E-18)
+    Total Salt:   4.5652120133125112E+14, Change:  -2.0228872299194338E-02 Error: -2.02289E-02 (-4.4E-17)
+    Total Heat:  -9.9572706057464267E+19, Change:   7.7432568359375000E+03 Error:  7.74326E+03 (-7.8E-17)
+MOM Day      10.500   3024: En 1.578977E-08, MaxCFL  0.00032, Mass 1.335202226718E+16, Salt  34.19116536778, Temp  -1.90000000000
+    Total Energy: 41A921E10F5D9FF4  2.1082535168286097E+08
+    Total Mass:   1.3352022267176020E+16, Change:  -1.9886867317367267E-02 Error: -1.98869E-02 (-1.5E-18)
+    Total Salt:   4.5652120133125112E+14, Change:  -1.8250488281250001E-02 Error: -1.82505E-02 (-4.0E-17)
+    Total Heat:  -9.9572706057464250E+19, Change:   8.7143442382812500E+03 Error:  8.71434E+03 (-8.8E-17)
+MOM Day      10.625   3060: En 1.571301E-08, MaxCFL  0.00032, Mass 1.335202226718E+16, Salt  34.19116536778, Temp  -1.90000000000
+    Total Energy: 41A90299C9266D60  2.0980042057505322E+08
+    Total Mass:   1.3352022267176022E+16, Change:  -1.8218466911550886E-02 Error: -1.82185E-02 (-1.4E-18)
+    Total Salt:   4.5652120133125112E+14, Change:  -1.7622713088989259E-02 Error: -1.76227E-02 (-3.9E-17)
+    Total Heat:  -9.9572706057464250E+19, Change:   7.3120649414062500E+03 Error:  7.31206E+03 (-7.3E-17)
+MOM Day      10.750   3096: En 1.562644E-08, MaxCFL  0.00032, Mass 1.335202226718E+16, Salt  34.19116536778, Temp  -1.90000000000
+    Total Energy: 41A8DF5412154DFA  2.0864461704161054E+08
+    Total Mass:   1.3352022267176024E+16, Change:  -9.0453024375250855E-03 Error: -9.04530E-03 (-6.8E-19)
+    Total Salt:   4.5652120133125112E+14, Change:  -1.6180213928222657E-02 Error: -1.61802E-02 (-3.5E-17)
+    Total Heat:  -9.9572706057464250E+19, Change:   7.1945327148437500E+03 Error:  7.19453E+03 (-7.2E-17)
+MOM Day      10.875   3132: En 1.554461E-08, MaxCFL  0.00032, Mass 1.335202226718E+16, Salt  34.19116536778, Temp  -1.90000000000
+    Total Energy: 41A8BDFB725E86BC  2.0755192918462169E+08
+    Total Mass:   1.3352022267176024E+16, Change:  -7.2290303138324514E-03 Error: -7.22903E-03 (-5.4E-19)
+    Total Salt:   4.5652120133125106E+14, Change:  -1.8147386550903321E-02 Error: -1.81474E-02 (-4.0E-17)
+    Total Heat:  -9.9572706057464234E+19, Change:   7.9374492187500000E+03 Error:  7.93745E+03 (-8.0E-17)
+MOM Day      11.000   3168: En 1.546396E-08, MaxCFL  0.00032, Mass 1.335202226718E+16, Salt  34.19116536778, Temp  -1.90000000000
+    Total Energy: 41A89D1E82E5CC7E  2.0647507344882578E+08
+    Total Mass:   1.3352022267176024E+16, Change:   1.3332248920529281E-03 Error:  1.33322E-03 ( 1.0E-19)
+    Total Salt:   4.5652120133125106E+14, Change:  -1.7162576675415039E-02 Error: -1.71626E-02 (-3.8E-17)
+    Total Heat:  -9.9572706057464234E+19, Change:   7.2996352539062500E+03 Error:  7.29964E+03 (-7.3E-17)
+MOM Day      11.125   3204: En 1.538011E-08, MaxCFL  0.00032, Mass 1.335202226718E+16, Salt  34.19116536778, Temp  -1.90000000000
+    Total Energy: 41A87AF47C2F3941  2.0535558209223369E+08
+    Total Mass:   1.3352022267176020E+16, Change:   7.8807169101638569E-03 Error:  7.88072E-03 ( 5.9E-19)
+    Total Salt:   4.5652120133125106E+14, Change:  -1.5682577133178711E-02 Error: -1.56826E-02 (-3.4E-17)
+    Total Heat:  -9.9572706057464218E+19, Change:   7.8084345703125000E+03 Error:  7.80843E+03 (-7.8E-17)
+MOM Day      11.250   3240: En 1.530282E-08, MaxCFL  0.00033, Mass 1.335202226718E+16, Salt  34.19116536778, Temp  -1.90000000000
+    Total Energy: 41A85B75A7884A9E  2.0432353976619428E+08
+    Total Mass:   1.3352022267176020E+16, Change:  -1.3591418346518631E-02 Error: -1.35914E-02 (-1.0E-18)
+    Total Salt:   4.5652120133125106E+14, Change:  -1.5135789871215820E-02 Error: -1.51358E-02 (-3.3E-17)
+    Total Heat:  -9.9572706057464218E+19, Change:   7.8674252929687500E+03 Error:  7.86743E+03 (-7.9E-17)
+MOM Day      11.375   3276: En 1.523107E-08, MaxCFL  0.00033, Mass 1.335202226718E+16, Salt  34.19116536778, Temp  -1.90000000000
+    Total Energy: 41A83E39A24B14BA  2.0336558514664251E+08
+    Total Mass:   1.3352022267176020E+16, Change:  -1.6125179809898138E-02 Error: -1.61252E-02 (-1.2E-18)
+    Total Salt:   4.5652120133125100E+14, Change:  -1.9328197479248046E-02 Error: -1.93282E-02 (-4.2E-17)
+    Total Heat:  -9.9572706057464201E+19, Change:   7.5637763671875000E+03 Error:  7.56378E+03 (-7.6E-17)
+MOM Day      11.500   3312: En 1.515329E-08, MaxCFL  0.00033, Mass 1.335202226718E+16, Salt  34.19116536778, Temp  -1.90000000000
+    Total Energy: 41A81E87C6CB8B2D  2.0232701139754620E+08
+    Total Mass:   1.3352022267176026E+16, Change:  -1.2738775237414023E-02 Error: -1.27388E-02 (-9.5E-19)
+    Total Salt:   4.5652120133125100E+14, Change:  -1.7373954772949219E-02 Error: -1.73740E-02 (-3.8E-17)
+    Total Heat:  -9.9572706057464201E+19, Change:   8.5112089843750000E+03 Error:  8.51121E+03 (-8.5E-17)
+MOM Day      11.625   3348: En 1.507621E-08, MaxCFL  0.00033, Mass 1.335202226718E+16, Salt  34.19116536778, Temp  -1.90000000000
+    Total Energy: 41A7FF20440C1E0D  2.0129795402366677E+08
+    Total Mass:   1.3352022267176020E+16, Change:  -3.5538978274272295E-03 Error: -3.55390E-03 (-2.7E-19)
+    Total Salt:   4.5652120133125100E+14, Change:  -1.7011625289916992E-02 Error: -1.70116E-02 (-3.7E-17)
+    Total Heat:  -9.9572706057464185E+19, Change:   7.3482812500000000E+03 Error:  7.34828E+03 (-7.4E-17)
+MOM Day      11.750   3384: En 1.501072E-08, MaxCFL  0.00033, Mass 1.335202226718E+16, Salt  34.19116536778, Temp  -1.90000000000
+    Total Energy: 41A7E470DC40BEAE  2.0042353412645477E+08
+    Total Mass:   1.3352022267176024E+16, Change:  -1.1089541752108802E-03 Error: -1.10895E-03 (-8.3E-20)
+    Total Salt:   4.5652120133125094E+14, Change:  -1.7826717376708986E-02 Error: -1.78267E-02 (-3.9E-17)
+    Total Heat:  -9.9572706057464185E+19, Change:   8.1016157226562500E+03 Error:  8.10162E+03 (-8.1E-17)
+MOM Day      11.875   3420: En 1.494361E-08, MaxCFL  0.00033, Mass 1.335202226718E+16, Salt  34.19116536778, Temp  -1.90000000000
+    Total Energy: 41A7C917D1300688  1.9952740059379983E+08
+    Total Mass:   1.3352022267176024E+16, Change:  -8.8133677372650952E-03 Error: -8.81337E-03 (-6.6E-19)
+    Total Salt:   4.5652120133125094E+14, Change:  -1.5814888000488282E-02 Error: -1.58149E-02 (-3.5E-17)
+    Total Heat:  -9.9572706057464168E+19, Change:   7.6448837890625000E+03 Error:  7.64488E+03 (-7.7E-17)
+MOM Day      12.000   3456: En 1.486712E-08, MaxCFL  0.00033, Mass 1.335202226718E+16, Salt  34.19116536778, Temp  -1.90000000000
+    Total Energy: 41A7A9ECF013A274  1.9850610403834879E+08
+    Total Mass:   1.3352022267176018E+16, Change:  -2.4716438115188120E-02 Error: -2.47164E-02 (-1.9E-18)
+    Total Salt:   4.5652120133125094E+14, Change:  -1.8404846191406251E-02 Error: -1.84048E-02 (-4.0E-17)
+    Total Heat:  -9.9572706057464168E+19, Change:   8.0018735351562500E+03 Error:  8.00187E+03 (-8.0E-17)
+MOM Day      12.125   3492: En 1.479760E-08, MaxCFL  0.00033, Mass 1.335202226718E+16, Salt  34.19116536778, Temp  -1.90000000000
+    Total Energy: 41A78D994E9F3829  1.9757789531097534E+08
+    Total Mass:   1.3352022267176022E+16, Change:   5.3772491217836385E-03 Error:  5.37725E-03 ( 4.0E-19)
+    Total Salt:   4.5652120133125094E+14, Change:  -1.6160982131958008E-02 Error: -1.61610E-02 (-3.5E-17)
+    Total Heat:  -9.9572706057464152E+19, Change:   7.8343632812500000E+03 Error:  7.83436E+03 (-7.9E-17)
+MOM Day      12.250   3528: En 1.473599E-08, MaxCFL  0.00033, Mass 1.335202226718E+16, Salt  34.19116536778, Temp  -1.90000000000
+    Total Energy: 41A7747E374055A2  1.9675522762565333E+08
+    Total Mass:   1.3352022267176022E+16, Change:  -1.5772885254875840E-02 Error: -1.57729E-02 (-1.2E-18)
+    Total Salt:   4.5652120133125088E+14, Change:  -1.8472221374511721E-02 Error: -1.84722E-02 (-4.0E-17)
+    Total Heat:  -9.9572706057464152E+19, Change:   8.5660498046875000E+03 Error:  8.56605E+03 (-8.6E-17)
+MOM Day      12.375   3564: En 1.466540E-08, MaxCFL  0.00033, Mass 1.335202226718E+16, Salt  34.19116536778, Temp  -1.90000000000
+    Total Energy: 41A757BAEFDA2F61  1.9581272792614272E+08
+    Total Mass:   1.3352022267176022E+16, Change:   1.1204904497075098E-02 Error:  1.12049E-02 ( 8.4E-19)
+    Total Salt:   4.5652120133125088E+14, Change:  -1.5957748413085938E-02 Error: -1.59577E-02 (-3.5E-17)
+    Total Heat:  -9.9572706057464136E+19, Change:   8.1958862304687500E+03 Error:  8.19589E+03 (-8.2E-17)
