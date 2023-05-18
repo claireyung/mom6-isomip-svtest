@@ -1,0 +1,18 @@
+format: yamanifest
+version: 1.0
+---
+work/INPUT/MOM.res.nc:
+  fullpath: /scratch/x77/cy8964/mom6/archive/zstar-KH1000_to_KH6KV/restart000/MOM.res.nc
+  hashes:
+    binhash: 414f145464dd2db774c5a58d18adbf1b
+    md5: 3608d44cee02093ea7bb3fdc9a0459da
+work/INPUT/Shelf.res.nc:
+  fullpath: /scratch/x77/cy8964/mom6/archive/zstar-KH1000_to_KH6KV/restart000/Shelf.res.nc
+  hashes:
+    binhash: fe1a69965dd52f7b90b476cce5eb1ede
+    md5: b2439095a95b387ded6e977bf597e7bb
+work/INPUT/ocean_solo.res:
+  fullpath: /scratch/x77/cy8964/mom6/archive/zstar-KH1000_to_KH6KV/restart000/ocean_solo.res
+  hashes:
+    binhash: 2c4479c006ae81e9fc8366d914c091d6
+    md5: e2a8f2981235b37d4e2963a1bdc86830
