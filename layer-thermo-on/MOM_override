@@ -1,0 +1,16 @@
+! Blank file in which we can put "overrides" for parameters
+!#override DAYMAX = 5
+#override SHELF_THERMO = True
+#override SHELF_THREE_EQN = True
+
+#override SMAGORINSKY_KH = False
+#override BIHARMONIC = False
+#override KH = 6.0  ! back. horiz. visc.
+#override KHTR = 1.0    ! back. horiz. diff.
+#override KD = 5.0E-5     ! back. diapycnal diff.
+#override KV = 1.0E-3     ! back. diapycnal visc.
+
+! MIXED LAYER
+#override BULKMIXEDLAYER = True
+#override BULK_RI_ML = 0.25
+!
