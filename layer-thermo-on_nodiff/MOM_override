@@ -5,10 +5,10 @@
 
 #override SMAGORINSKY_KH = False
 #override BIHARMONIC = False
-!#override KH = 6.0  ! back. horiz. visc.
+#override KH = 6.0  ! back. horiz. visc.
 !#override KHTR = 1.0    ! back. horiz. diff.
 !#override KD = 5.0E-5     ! back. diapycnal diff.
-!#override KV = 1.0E-3     ! back. diapycnal visc.
+#override KV = 1.0E-3     ! back. diapycnal visc.
 
 ! MIXED LAYER
 #override BULKMIXEDLAYER = True
