@@ -1,0 +1,5 @@
+! MIXED LAYER
+#override BULKMIXEDLAYER = True
+#override BULK_RI_ML = 0.25
+#override HMIX_MIN = 10.0
+!
