@@ -54,7 +54,7 @@
                                 !                HYBRID:vgrid.nc,sigma2,dz
 ! Add some params from Matt Harrison's thing
 #override FRAZIL = True
-#override T_REF = -0.5
+!#override T_REF = -0.5
 #override FIXED_DEPTH_LOTW_ML = True
 #override LOTW_VISCOUS_ML_FLOOR = True
 #override DYNAMIC_SURFACE_PRESSURE = True
