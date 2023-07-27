@@ -2,17 +2,17 @@ format: yamanifest
 version: 1.0
 ---
 work/INPUT/MOM.res.nc:
-  fullpath: /scratch/x77/cy8964/mom6/archive/layer-thermo-on-test/restart002/MOM.res.nc
+  fullpath: /scratch/x77/cy8964/mom6/archive/layer-thermo-on-test/restart003/MOM.res.nc
   hashes:
-    binhash: b9b54c90d666b986ac69a656399b87ca
-    md5: 5e47fb7c4a063cbaf69af217b177bbbf
+    binhash: 3a1d8d3916c870c2dc46399658e1873b
+    md5: 19b2e45272b1b0cb1c1ea855dd372072
 work/INPUT/Shelf.res.nc:
-  fullpath: /scratch/x77/cy8964/mom6/archive/layer-thermo-on-test/restart002/Shelf.res.nc
+  fullpath: /scratch/x77/cy8964/mom6/archive/layer-thermo-on-test/restart003/Shelf.res.nc
   hashes:
-    binhash: 2aefea248c37a8830d36b110dee243c2
-    md5: 3ba658f0edaa97fd520b9f050ca17fd8
+    binhash: ae7d32fc86c12e14da660f085b8d32cf
+    md5: 4fd91ff8ee1f79ffbb41dee2f9b03af9
 work/INPUT/ocean_solo.res:
-  fullpath: /scratch/x77/cy8964/mom6/archive/layer-thermo-on-test/restart002/ocean_solo.res
+  fullpath: /scratch/x77/cy8964/mom6/archive/layer-thermo-on-test/restart003/ocean_solo.res
   hashes:
-    binhash: c73eda2980de3440d67671955603acb7
-    md5: bbb266c1619dd5215bda5545e606f0e1
+    binhash: 36e5c08838d892557aded4c0e147fa29
+    md5: d8f166d6b2ce1c7cbe5a181841c87e7e
