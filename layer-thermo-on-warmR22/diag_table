@@ -67,7 +67,7 @@
 "ice_shelf_model","mass_flux","mass_flux"      ,"ocean_daily_z","all",.true.,"none",2
 "ice_shelf_model","tfreeze","tfreeze"          ,"ocean_daily_z","all",.true.,"none",2
 "ice_shelf_model","tflux_shelf","tflux_shelf"  ,"ocean_daily_z","all",.true.,"none",2
-"ice_shelf_model","Lplus","Lplus","ice","all",.true.,"none",2
+"ice_shelf_model","Lplus","Lplus","ocean_daily_z","all",.true.,"none",2
 "ocean_model_z","h","h","ocean_daily_z","all",.true.,"none",1
 "ocean_model_z","e","e","ocean_daily_z","all",.true.,"none",2
 "ocean_model_z","e_D","e_D","ocean_daily_z","all",.true.,"none",2
