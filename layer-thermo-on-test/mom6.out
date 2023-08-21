@@ -1,0 +1,112 @@
+NOTE from PE     0: MPP_DOMAINS_SET_STACK_SIZE: stack size set to    32768.
+ &MPP_IO_NML
+ HEADER_BUFFER_VAL       =       16384,
+ GLOBAL_FIELD_ON_ROOT_PE = T,
+ IO_CLOCKS_ON    = F,
+ SHUFFLE =           0,
+ DEFLATE_LEVEL   =          -1,
+ CF_COMPLIANCE   = F
+ /
+NOTE from PE     0: MPP_IO_SET_STACK_SIZE: stack size set to     131072.
+NOTE from PE     0: MPP_DOMAINS_SET_STACK_SIZE: stack size set to   960000.
+NOTE from PE     0: ======== Model being driven by MOM_driver ========
+NOTE from PE     0: callTree: o Program MOM_main, MOM_driver.F90
+ &OCEAN_SOLO_NML
+ DATE_INIT       = 3*1, 3*0,
+ CALENDAR        = julian          ,
+ MONTHS  =           0,
+ DAYS    =         365,
+ HOURS   =           0,
+ MINUTES =           0,
+ SECONDS =           0,
+ OCEAN_NTHREADS  =           1,
+ USE_HYPER_THREAD        = F
+ /
+NOTE from PE     0: open_param_file: MOM_input has been opened successfully.
+NOTE from PE     0: open_param_file: MOM_override has been opened successfully.
+
+WARNING from PE     0: MOM_file_parser : BULKMIXEDLAYER over-ridden.  Line: 'BULKMIXEDLAYER = True' in file MOM_override.
+
+
+WARNING from PE     0: MOM_file_parser : DT over-ridden.  Line: 'DT = 720' in file MOM_override.
+
+
+WARNING from PE     0: MOM_file_parser : DT_THERM over-ridden.  Line: 'DT_THERM = 720' in file MOM_override.
+
+ MOM_in domain decomposition
+whalo =    4, ehalo =    4, shalo =    4, nhalo =    4
+  X-AXIS =   15  15  15  15  15  15  15  15  15  15  15  15  15  15  15  15
+  Y-AXIS =   14  12  14
+ MOM_inc domain decomposition
+whalo =    2, ehalo =    2, shalo =    2, nhalo =    2
+  X-AXIS =    8   8   8   8   7   7   7   7   7   7   7   7   8   8   8   8
+  Y-AXIS =    7   6   7
+
+WARNING from PE     0: diag_manager_mod::diag_manager_init: DIAG_MANAGER_NML not found in input.nml.  Using defaults.
+
+NOTE from PE     0: diag_manager_mod::diag_manager_init: prepend_date only supported when diag_manager_init is called with time_init present.
+ MOM_in domain decomposition
+whalo =    4, ehalo =    4, shalo =    4, nhalo =    4
+  X-AXIS =   15  15  15  15  15  15  15  15  15  15  15  15  15  15  15  15
+  Y-AXIS =   14  12  14
+ MOM_in domain decomposition
+whalo =    2, ehalo =    2, shalo =    2, nhalo =    2
+  X-AXIS =    8   8   8   8   7   7   7   7   7   7   7   7   8   8   8   8
+  Y-AXIS =    7   6   7
+
+WARNING from PE     0: MOM_file_parser : SPONGE over-ridden.  Line: 'SPONGE = True' in file MOM_override.
+
+
+WARNING from PE     0: MOM_file_parser : USE_JACKSON_PARAM over-ridden.  Line: 'USE_JACKSON_PARAM = True' in file MOM_override.
+
+ MOM_in domain decomposition
+whalo =    4, ehalo =    4, shalo =    4, nhalo =    4
+  X-AXIS =   15  15  15  15  15  15  15  15  15  15  15  15  15  15  15  15
+  Y-AXIS =   14  12  14
+ MOM_in domain decomposition
+whalo =    2, ehalo =    2, shalo =    2, nhalo =    2
+  X-AXIS =    8   8   8   8   7   7   7   7   7   7   7   7   8   8   8   8
+  Y-AXIS =    7   6   7
+ MOM_Ice_Shelf_in domain decomposition
+whalo =    4, ehalo =    4, shalo =    4, nhalo =    4
+  X-AXIS =   15  15  15  15  15  15  15  15  15  15  15  15  15  15  15  15
+  Y-AXIS =   14  12  14
+ MOM_Ice_Shelf_inc domain decomposition
+whalo =    2, ehalo =    2, shalo =    2, nhalo =    2
+  X-AXIS =    8   8   8   8   7   7   7   7   7   7   7   7   8   8   8   8
+  Y-AXIS =    7   6   7
+ MOM_Ice_Shelf_in domain decomposition
+whalo =    4, ehalo =    4, shalo =    4, nhalo =    4
+  X-AXIS =   15  15  15  15  15  15  15  15  15  15  15  15  15  15  15  15
+  Y-AXIS =   14  12  14
+ MOM_Ice_Shelf_in domain decomposition
+whalo =    2, ehalo =    2, shalo =    2, nhalo =    2
+  X-AXIS =    8   8   8   8   7   7   7   7   7   7   7   7   8   8   8   8
+  Y-AXIS =    7   6   7
+
+WARNING from PE     0: MOM_file_parser : SHELF_THERMO over-ridden.  Line: 'SHELF_THERMO = True' in file MOM_override.
+
+
+WARNING from PE     0: MOM_file_parser : SHELF_THREE_EQN over-ridden.  Line: 'SHELF_THREE_EQN = True' in file MOM_override.
+
+
+WARNING from PE     0: MOM_file_parser : SHELF_3EQ_GAMMA_T over-ridden.  Line: 'SHELF_3EQ_GAMMA_T = 0.1423' in file MOM_override.
+
+NOTE from PE     0: MOM_ice_shelf.F90, initialize_ice_shelf: Restoring ice shelf from file.
+NOTE from PE     0: MOM_restart: MOM run restarted using : INPUT/Shelf.res.nc
+NOTE from PE     0: MOM_restart: MOM run restarted using : INPUT/MOM.res.nc
+
+WARNING from PE     0: MOM_file_parser : ISOMIP_TNUDG over-ridden.  Line: 'ISOMIP_TNUDG = 0.1' in file MOM_override.
+
+
+WARNING from PE     0: MOM_file_parser : NUM_DIAG_COORDS over-ridden.  Line: 'NUM_DIAG_COORDS = 2' in file MOM_override.
+
+
+WARNING from PE     0: MOM_file_parser : DIAG_COORDS over-ridden.  Line: 'DIAG_COORDS = "z Z ZSTAR", "rho2 RHO2 RHO"' in file MOM_override.
+
+
+WARNING from PE     0: MOM_file_parser : DIAG_COORD_DEF_Z over-ridden.  Line: 'DIAG_COORD_DEF_Z = "FILE:vert_isomip.nc,interfaces=st_edges_ocean"' in file MOM_override.
+
+
+FATAL from PE     0: diag_manager_mod::register_diag_field:  file=ocean_month_rho2: Invalid date. Date=0005-02-31 00:00:00
+

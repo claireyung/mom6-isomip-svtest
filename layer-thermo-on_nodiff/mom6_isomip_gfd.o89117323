@@ -1,0 +1,39 @@
+laboratory path:  /scratch/x77/cy8964/mom6
+binary path:  /scratch/x77/cy8964/mom6/bin
+input path:  /scratch/x77/cy8964/mom6/input
+work path:  /scratch/x77/cy8964/mom6/work
+archive path:  /scratch/x77/cy8964/mom6/archive
+nruns: 1 nruns_per_submit: 1 subrun: 1
+Loading input manifest: manifests/input.yaml
+Loading restart manifest: manifests/restart.yaml
+Loading exe manifest: manifests/exe.yaml
+Setting up mom6
+Checking exe and input manifests
+Updating full hashes for 1 files in manifests/exe.yaml
+Creating restart manifest
+Writing manifests/restart.yaml
+Writing manifests/exe.yaml
+payu: Found modules in /opt/Modules/v4.3.0
+git add /home/156/cy8964/mom6-control/isomip-control/ISOMIP-MOM6-examples/layer-thermo-on_nodiff/config.yaml
+git add /home/156/cy8964/mom6-control/isomip-control/ISOMIP-MOM6-examples/layer-thermo-on_nodiff/input.nml
+git add /home/156/cy8964/mom6-control/isomip-control/ISOMIP-MOM6-examples/layer-thermo-on_nodiff/MOM_input
+git add /home/156/cy8964/mom6-control/isomip-control/ISOMIP-MOM6-examples/layer-thermo-on_nodiff/diag_table
+git add /home/156/cy8964/mom6-control/isomip-control/ISOMIP-MOM6-examples/layer-thermo-on_nodiff/MOM_override
+git add manifests/input.yaml
+git add manifests/restart.yaml
+git add manifests/exe.yaml
+git commit -am "2023-06-27 12:40:47: Run 0"
+mpirun  -wdir /scratch/x77/cy8964/mom6/work/layer-thermo-on_nodiff -np 48  /scratch/x77/cy8964/mom6/work/layer-thermo-on_nodiff/MOM6
+
+======================================================================================
+                  Resource Usage on 2023-06-27 13:12:15:
+   Job Id:             89117323.gadi-pbs
+   Project:            x77
+   Exit Status:        0
+   Service Units:      50.48
+   NCPUs Requested:    48                     NCPUs Used: 48              
+                                           CPU Time Used: 24:58:52        
+   Memory Requested:   192.0GB               Memory Used: 28.66GB         
+   Walltime requested: 01:00:00            Walltime Used: 00:31:33        
+   JobFS requested:    10.0GB                 JobFS used: 8.16MB          
+======================================================================================

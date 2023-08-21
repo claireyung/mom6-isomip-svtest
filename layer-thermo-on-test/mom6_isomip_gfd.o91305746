@@ -1,0 +1,46 @@
+laboratory path:  /scratch/x77/cy8964/mom6
+binary path:  /scratch/x77/cy8964/mom6/bin
+input path:  /scratch/x77/cy8964/mom6/input
+work path:  /scratch/x77/cy8964/mom6/work
+archive path:  /scratch/x77/cy8964/mom6/archive
+nruns: 5 nruns_per_submit: 1 subrun: 1
+Loading input manifest: manifests/input.yaml
+Loading restart manifest: manifests/restart.yaml
+Loading exe manifest: manifests/exe.yaml
+Setting up mom6
+Checking exe and input manifests
+Updating full hashes for 1 files in manifests/exe.yaml
+Creating restart manifest
+Updating full hashes for 3 files in manifests/restart.yaml
+91317340.gadi-pbs
+Loading input manifest: manifests/input.yaml
+Loading restart manifest: manifests/restart.yaml
+Loading exe manifest: manifests/exe.yaml
+payu: Found modules in /opt/Modules/v4.3.0
+qsub -q normal -P x77 -l walltime=04:00:00 -l ncpus=48 -l mem=192GB -l jobfs=10GB -N mom6_isomip_gfd -l wd -j n -v PAYU_PATH=/g/data/hh5/public/apps/miniconda3/envs/analysis3-23.01/bin,PAYU_CURRENT_RUN=2,PAYU_N_RUNS=4,MODULESHOME=/opt/Modules/v4.3.0,MODULES_CMD=/opt/Modules/v4.3.0/libexec/modulecmd.tcl,MODULEPATH=/g/data3/hh5/public/modules:/etc/scl/modulefiles:/apps/Modules/restricted-modulefiles/matlab_anu:/opt/Modules/modulefiles:/opt/Modules/v4.3.0/modulefiles:/apps/Modules/modulefiles -l storage=gdata/hh5+gdata/ik11+scratch/x77 -- /g/data/hh5/public/apps/miniconda3/envs/analysis3-23.01/bin/python3.9 /g/data/hh5/public/apps/miniconda3/envs/analysis3-23.01/bin/payu-run
+Writing manifests/restart.yaml
+Writing manifests/exe.yaml
+payu: Found modules in /opt/Modules/v4.3.0
+git add /home/156/cy8964/mom6-control/isomip-control/ISOMIP-MOM6-examples/layer-thermo-on-test/config.yaml
+git add /home/156/cy8964/mom6-control/isomip-control/ISOMIP-MOM6-examples/layer-thermo-on-test/input.nml
+git add /home/156/cy8964/mom6-control/isomip-control/ISOMIP-MOM6-examples/layer-thermo-on-test/MOM_input
+git add /home/156/cy8964/mom6-control/isomip-control/ISOMIP-MOM6-examples/layer-thermo-on-test/diag_table
+git add /home/156/cy8964/mom6-control/isomip-control/ISOMIP-MOM6-examples/layer-thermo-on-test/MOM_override
+git add manifests/input.yaml
+git add manifests/restart.yaml
+git add manifests/exe.yaml
+git commit -am "2023-07-27 11:29:56: Run 1"
+mpirun  -wdir /scratch/x77/cy8964/mom6/work/layer-thermo-on-test -np 48  /scratch/x77/cy8964/mom6/work/layer-thermo-on-test/MOM6
+
+======================================================================================
+                  Resource Usage on 2023-07-27 13:15:47:
+   Job Id:             91305746.gadi-pbs
+   Project:            x77
+   Exit Status:        0
+   Service Units:      169.44
+   NCPUs Requested:    48                     NCPUs Used: 48              
+                                           CPU Time Used: 82:44:09        
+   Memory Requested:   192.0GB               Memory Used: 53.81GB         
+   Walltime requested: 04:00:00            Walltime Used: 01:45:54        
+   JobFS requested:    10.0GB                 JobFS used: 8.16MB          
+======================================================================================

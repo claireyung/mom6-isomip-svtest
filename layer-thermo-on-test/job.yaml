@@ -1,0 +1,9 @@
+PAYU_CONTROL_DIR: /home/156/cy8964/mom6-control/isomip-control/ISOMIP-MOM6-examples/layer-thermo-on-test
+PAYU_CURRENT_RUN: 4
+PAYU_FINISH_TIME: '2023-07-27T16:52:34.808172'
+PAYU_JOB_STATUS: 1
+PAYU_N_RUNS: 2
+PAYU_PATH: /g/data/hh5/public/apps/miniconda3/envs/analysis3-23.01/bin
+PAYU_RUN_ID: 7fabe0314442a38480e25ab22ae7586af26e0b19
+PAYU_START_TIME: '2023-07-27T16:52:25.410830'
+PAYU_WALLTIME: 9.397342 s
