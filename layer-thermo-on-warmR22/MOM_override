@@ -20,7 +20,7 @@
 ! ice shelf
 #override SHELF_THERMO = True
 #override SHELF_THREE_EQN = True
-#override SHELF_3EQ_GAMMA_T = 0.1423
+!#override SHELF_3EQ_GAMMA_T = 0.1423
 SHELF_S_ROOT = True
 #override USE_HMIX_SFC_PROP = True
 #override HMIX_SFC_PROP = 10.
