@@ -1,3 +1,18 @@
 format: yamanifest
 version: 1.0
---- {}
+---
+work/INPUT/MOM.res.nc:
+  fullpath: /scratch/x77/cy8964/mom6/archive/layer-thermo-on-warmJ10/restart000/MOM.res.nc
+  hashes:
+    binhash: a71a37e35eeba9331474f1a5f932faa0
+    md5: 93e2a84d43d2ebf4455dee2870875262
+work/INPUT/Shelf.res.nc:
+  fullpath: /scratch/x77/cy8964/mom6/archive/layer-thermo-on-warmJ10/restart000/Shelf.res.nc
+  hashes:
+    binhash: 3cbc1ea8b67c0d384a4a4490ba4ac643
+    md5: a8f2d17566e8f05817c61d661af3fc27
+work/INPUT/ocean_solo.res:
+  fullpath: /scratch/x77/cy8964/mom6/archive/layer-thermo-on-warmJ10/restart000/ocean_solo.res
+  hashes:
+    binhash: 529ccc113a038b7c1ebaa98e70029645
+    md5: 182c791bb7587ce53a51e53a6675d060
