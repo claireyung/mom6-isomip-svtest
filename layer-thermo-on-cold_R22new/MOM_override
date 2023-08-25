@@ -15,7 +15,7 @@
 #override ISOMIP_T_SUR = -1.9
 #override ISOMIP_S_SUR = 33.8
 #override ISOMIP_T_BOT = -1.9
-#override ISOMIP_S_BOT = 34.7
+#override ISOMIP_S_BOT = 34.55
 
 ! ice shelf
 #override SHELF_THERMO = True
