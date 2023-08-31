@@ -71,6 +71,8 @@
 "ice_shelf_model","ustar_shelf","ustar_shelf","ocean_daily_z","all",.true.,"none",2
 "ice_shelf_model","MR_cc","MR_cc","ocean_daily_z","all",.true.,"none",2
 "ice_shelf_model","MR_r22","MR_r22","ocean_daily_z","all",.true.,"none",2
+"ice_shelf_model","thermal_driving","thermal_driving","ocean_daily_z","all",.true.,"none",2
+"ice_shelf_model","haline_driving","haline_driving","ocean_daily_z","all",.true.,"none",2
 
 "ocean_model_z","h","h","ocean_daily_z","all",.true.,"none",1
 "ocean_model_z","e","e","ocean_daily_z","all",.true.,"none",2
