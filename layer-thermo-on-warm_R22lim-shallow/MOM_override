@@ -100,3 +100,5 @@ USE_ISOMIP_TRACER = True
 !#override SHELF_3EQ_R22_LPLUS_BUOY_ITT_THRESHOLD = 1
 
 #override ICE_THICKNESS_FILE = "Gustavo_Ocean1_3D_halved.nc"
+#override SURFACE_PRESSURE_FILE = "Gustavo_Ocean1_3D_halved.nc"
+
