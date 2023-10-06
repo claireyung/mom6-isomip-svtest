@@ -45,6 +45,7 @@ SHELF_S_ROOT = True
 
 ! SPONGE
 #override SPONGE = True
+#override SPONGE_CONFIG = "ISOMIP"
 !ISOMIP_SPONGE_FILE = "3D_LAYER_COLD_IC.nc"
 #override ISOMIP_TNUDG = 0.1
 #override ISOMIP_T_SUR_SPONGE = -2.0
