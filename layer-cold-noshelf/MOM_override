@@ -101,3 +101,4 @@ USE_ISOMIP_TRACER = True
 
 #override ICE_SHELF = False
 #override TRIM_IC_FOR_P_SURF = False
+#override FIT_SALINITY = False
