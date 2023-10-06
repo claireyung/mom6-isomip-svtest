@@ -276,6 +276,11 @@ work/INPUT/3D_LAYER_COLD_IC.nc:
   hashes:
     binhash: 8aed54433aaac487cf68a1800a5f11eb
     md5: 3e065dcde20f8c907427290596bb26fa
+work/INPUT/3D_LAYER_COLD_IC_TEST6OCT.nc:
+  fullpath: /home/156/cy8964/ISOMIP/3D_LAYER_COLD_IC_TEST6OCT.nc
+  hashes:
+    binhash: 9680241a0427a98f4456036850879845
+    md5: d176eeb0f731fa7337f9885016761387
 work/INPUT/3D_LAYER_WARM_IC.nc:
   fullpath: /home/156/cy8964/ISOMIP/3D_LAYER_WARM_IC.nc
   hashes:
@@ -286,6 +291,31 @@ work/INPUT/Gustavo_Ocean1_3D.nc:
   hashes:
     binhash: 99b2ae5943a26162248bd41257638878
     md5: 9595f5347b9bfc62eeaceda925999ac6
+work/INPUT/Gustavo_Ocean1_3D_halved.nc:
+  fullpath: /home/156/cy8964/ISOMIP/Gustavo_Ocean1_3D_halved.nc
+  hashes:
+    binhash: 06073034f8ba6e7bfa54290c8a947a6f
+    md5: e5eaa79fa328f9ad86bb01ff004fd88d
+work/INPUT/ISOMIP_thickness_sigma_shelf_zstar-bouss.nc:
+  fullpath: /home/156/cy8964/ISOMIP/ISOMIP_thickness_sigma_shelf_zstar-bouss.nc
+  hashes:
+    binhash: 8ab1de51cb3ecbf4e86c3ccc862af89f
+    md5: c66465f62d20a612022eba0d7c45c368
+work/INPUT/ISOMIP_thickness_sigma_shelf_zstar-nonbouss.nc:
+  fullpath: /home/156/cy8964/ISOMIP/ISOMIP_thickness_sigma_shelf_zstar-nonbouss.nc
+  hashes:
+    binhash: 8600a4dd3c3d75f5cb9978e3e84fcb46
+    md5: 7191b42978ab3cae4eb95e05e519ab99
+work/INPUT/ISOMIP_thickness_zstar-bouss.nc:
+  fullpath: /home/156/cy8964/ISOMIP/ISOMIP_thickness_zstar-bouss.nc
+  hashes:
+    binhash: 53af8377d148d95f600f2e94aeaa7f20
+    md5: fc79e2403c5dc4309dd4312ec70b9cf6
+work/INPUT/ISOMIP_thickness_zstar-nonbouss.nc:
+  fullpath: /home/156/cy8964/ISOMIP/ISOMIP_thickness_zstar-nonbouss.nc
+  hashes:
+    binhash: af5b3d4b755db4a3de46090e036dc993
+    md5: 645e1a874e8a89bafed5d6666fe34cf7
 work/INPUT/ISOMIP_zgrid.nc:
   fullpath: /home/156/cy8964/ISOMIP/ISOMIP_zgrid.nc
   hashes:

@@ -4,5 +4,5 @@ version: 1.0
 work/MOM6:
   fullpath: /scratch/x77/cy8964/mom6/mom6-ninja-nci/ocean_only_symmetric/MOM6
   hashes:
-    binhash: bc1b72692713c7f7b743802ae71c85f6
-    md5: b9de4d0d8106cb5f5a658c57feb48ec3
+    binhash: 7212feed6e42deab03cfe84cd678f4af
+    md5: 126fb2d5a4a7b3502498535682c9d36d
