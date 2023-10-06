@@ -276,6 +276,16 @@ work/INPUT/3D_LAYER_COLD_IC.nc:
   hashes:
     binhash: 8aed54433aaac487cf68a1800a5f11eb
     md5: 3e065dcde20f8c907427290596bb26fa
+work/INPUT/3D_LAYER_COLD_IC_TEST6OCT.nc:
+  fullpath: /home/156/cy8964/ISOMIP/3D_LAYER_COLD_IC_TEST6OCT.nc
+  hashes:
+    binhash: 9680241a0427a98f4456036850879845
+    md5: d176eeb0f731fa7337f9885016761387
+work/INPUT/3D_LAYER_VERYCOLD_IC_TEST6OCT.nc:
+  fullpath: /home/156/cy8964/ISOMIP/3D_LAYER_VERYCOLD_IC_TEST6OCT.nc
+  hashes:
+    binhash: 3e1c4e93fe09dae3969744fff1aa86ad
+    md5: 2109352c59f3e0637f75ca9b26834ae3
 work/INPUT/3D_LAYER_WARM_IC.nc:
   fullpath: /home/156/cy8964/ISOMIP/3D_LAYER_WARM_IC.nc
   hashes:
