@@ -1,0 +1,9 @@
+PAYU_CONTROL_DIR: /home/156/cy8964/mom6-control/isomip-control/ISOMIP-MOM6-examples/layer-verycold-noshelf
+PAYU_CURRENT_RUN: 0
+PAYU_FINISH_TIME: '2023-10-06T14:30:04.555085'
+PAYU_JOB_STATUS: 1
+PAYU_N_RUNS: 1
+PAYU_PATH: /g/data/hh5/public/apps/miniconda3/envs/analysis3-23.04/bin
+PAYU_RUN_ID: b72678fe62cfa3f0f674bb7ffc4e798397784071
+PAYU_START_TIME: '2023-10-06T14:29:55.514306'
+PAYU_WALLTIME: 9.040779 s
