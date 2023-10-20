@@ -1,0 +1,9 @@
+PAYU_CONTROL_DIR: /home/156/cy8964/mom6-control/isomip-control/ISOMIP-MOM6-examples/layer-lesswarm-noshelf
+PAYU_CURRENT_RUN: 0
+PAYU_FINISH_TIME: '2023-10-09T12:55:47.725970'
+PAYU_JOB_STATUS: 1
+PAYU_N_RUNS: 1
+PAYU_PATH: /g/data/hh5/public/apps/miniconda3/envs/analysis3-23.04/bin
+PAYU_RUN_ID: 90b7bf37a4dac8dd99810a217e85b1b2baf18af1
+PAYU_START_TIME: '2023-10-09T12:55:38.081757'
+PAYU_WALLTIME: 9.644213 s

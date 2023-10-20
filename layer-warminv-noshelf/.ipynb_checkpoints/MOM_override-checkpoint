@@ -1,0 +1,104 @@
+! Blank file in which we can put "overrides" for parameters
+! TIME STEP
+#override DT = 720
+#override DT_THERM = 720
+
+! MIXING
+#override SMAGORINSKY_KH = False
+#override BIHARMONIC = False
+#override KH = 6.0  ! back. horiz. visc.
+#override KHTR = 1.0    ! back. horiz. diff.
+#override KD = 5.0E-5     ! back. diapycnal diff.
+#override KV = 1.0E-3     ! back. diapycnal visc.
+
+!WARM IC
+#override ISOMIP_T_SUR = 1.0
+#override ISOMIP_S_SUR = 33.8
+#override ISOMIP_T_BOT = -1.9
+#override ISOMIP_S_BOT = 34.7
+
+! ice shelf
+#override SHELF_THERMO = True
+#override SHELF_THREE_EQN = True
+!#override SHELF_3EQ_GAMMA_T = 0.1423
+SHELF_S_ROOT = True
+#override USE_HMIX_SFC_PROP = True
+#override HMIX_SFC_PROP = 10.
+
+! FRAZIL
+!#override FRAZIL = True
+!#override PRESSURE_DEPENDENT_FRAZIL = True
+
+! MIXED LAYER
+#override BULKMIXEDLAYER = True
+#override BULK_RI_ML = 0.25
+#override MIXEDLAYER_RESTRAT = True
+#override HMIX_MIN = 10.0
+#override KV_TBL_MIN = 1.0E-2
+#override HTBL_SHELF_MIN = 10.0
+#override BOUND_SALINITY = True
+ 
+! SHEAR MIXING
+#override USE_JACKSON_PARAM = True
+#override RINO_CRIT = 0.25
+!#override KD_KAPPA_SHEAR_0 = 1.0E-2
+
+! SPONGE
+!#override SPONGE = True
+!ISOMIP_SPONGE_FILE = "3D_LAYER_COLD_IC.nc"
+!#override ISOMIP_TNUDG = 0.1
+
+! PASSIVE TRACERS
+USE_ISOMIP_TRACER = True
+
+! Simulation time
+#override DAYMAX = 730
+
+!#override FIT_SALINITY = False
+
+! === module MOM_diag_mediator ===
+#override NUM_DIAG_COORDS = 2             ! default = 1
+                                ! The number of diagnostic vertical coordinates to use. For each coordinate, an
+                                ! entry in DIAG_COORDS must be provided.
+#override DIAG_COORDS = "z Z ZSTAR", "rho2 RHO2 RHO" !
+                                ! A list of string tuples associating diag_table modules to a coordinate
+                                ! definition used for diagnostics. Each string is of the form
+                                ! "MODULE_SUFFIX,PARAMETER_SUFFIX,COORDINATE_NAME".
+#override DIAG_COORD_DEF_Z = "FILE:vert_isomip.nc,interfaces=st_edges_ocean" ! default = "UNIFORM"
+                                ! Determines how to specify the coordinate resolution. Valid options are:
+                                !  PARAM       - use the vector-parameter DIAG_COORD_RES_Z
+                                !  UNIFORM[:N] - uniformly distributed
+                                !  FILE:string - read from a file. The string specifies
+                                !                the filename and variable name, separated
+                                !                by a comma or space, e.g. FILE:lev.nc,dz
+                                !                or FILE:lev.nc,interfaces=zw
+                                !  WOA09[:N]   - the WOA09 vertical grid (approximately)
+                                !  FNC1:string - FNC1:dz_min,H_total,power,precision
+                                !  HYBRID:string - read from a file. The string specifies
+                                !                the filename and two variable names, separated
+                                !                by a comma or space, for sigma-2 and dz. e.g.
+                                !                HYBRID:vgrid.nc,sigma2,dz
+#override DIAG_COORD_DEF_RHO2 = "FILE:diag_rho0.nc,interfaces=rho2" ! default = "UNIFORM"
+                                ! Determines how to specify the coordinate resolution. Valid options are:
+                                !  PARAM       - use the vector-parameter DIAG_COORD_RES_RHO2
+                                !  UNIFORM[:N] - uniformly distributed
+                                !  FILE:string - read from a file. The string specifies
+                                !                the filename and variable name, separated
+                                !                by a comma or space, e.g. FILE:lev.nc,dz
+                                !                or FILE:lev.nc,interfaces=zw
+                                !  WOA09[:N]   - the WOA09 vertical grid (approximately)
+                                !  FNC1:string - FNC1:dz_min,H_total,power,precision
+                                !  HYBRID:string - read from a file. The string specifies
+                                !                the filename and two variable names, separated
+                                !                by a comma or space, for sigma-2 and dz. e.g.
+                                !                HYBRID:vgrid.nc,sigma2,dz
+! Add R22 param info
+!#override SHELF_3EQ_R22_PARAM = True
+#override SHELF_S_ROOT = False
+#override SHELF_3EQ_GAMMA_T = 0.012
+#override SHELF_3EQ_GAMMA_S = 3.9e-4
+!#override SHELF_3EQ_R22_LPLUS_BUOY_ITT_THRESHOLD = 1
+
+#override ICE_SHELF = False
+#override TRIM_IC_FOR_P_SURF = False
+#override FIT_SALINITY = True

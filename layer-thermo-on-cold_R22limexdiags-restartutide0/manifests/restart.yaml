@@ -1,0 +1,18 @@
+format: yamanifest
+version: 1.0
+---
+work/INPUT/MOM.res.nc:
+  fullpath: /scratch/x77/cy8964/mom6/archive/layer-thermo-on-cold_R22limexdiags-restartutide0/restart000/MOM.res.nc
+  hashes:
+    binhash: 60c8135692d0dba2dd4b63946f452710
+    md5: 9cd1af5ae21f6a6d216cdceb1cc7dbea
+work/INPUT/Shelf.res.nc:
+  fullpath: /scratch/x77/cy8964/mom6/archive/layer-thermo-on-cold_R22limexdiags-restartutide0/restart000/Shelf.res.nc
+  hashes:
+    binhash: edc0917c18c7910475abb5740a710c3e
+    md5: 4d01eaaa7b8857a6515b048f0b7886cf
+work/INPUT/ocean_solo.res:
+  fullpath: /scratch/x77/cy8964/mom6/archive/layer-thermo-on-cold_R22limexdiags-restartutide0/restart000/ocean_solo.res
+  hashes:
+    binhash: dd6071e140f4f34d28451dab40d2b20a
+    md5: e2a8f2981235b37d4e2963a1bdc86830
