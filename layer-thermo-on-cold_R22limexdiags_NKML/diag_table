@@ -74,6 +74,11 @@
 "ice_shelf_model","thermal_driving","thermal_driving","ocean_daily_z","all",.true.,"none",2
 "ice_shelf_model","haline_driving","haline_driving","ocean_daily_z","all",.true.,"none",2
 
+"ocean_model_z","MLD_restrat","MLD_restrat","ocean_daily_z","all",.true.,"none",2
+"ocean_model_z","BLD_restrat","BLD_restrat","ocean_daily_z","all",.true.,"none",2
+"ocean_model_z","h_ML","h_ML","ocean_daily_z","all",.true.,"none",2
+
+
 "ocean_model_z","h","h","ocean_daily_z","all",.true.,"none",1
 "ocean_model_z","e","e","ocean_daily_z","all",.true.,"none",2
 "ocean_model_z","e_D","e_D","ocean_daily_z","all",.true.,"none",2
@@ -148,7 +153,7 @@
 "ocean_model","e","e","prog_%4yr_%3dy","all",.false.,"none",2
 "ocean_model","temp","temp","prog_%4yr_%3dy","all",.false.,"none",2
 "ocean_model","salt","salt","prog_%4yr_%3dy","all",.false.,"none",2
-#"ocean_model","Rml","Rml","prog_%4yr_%3dy","all",.false.,"none",2
+"ocean_model","Rml","Rml","prog_%4yr_%3dy","all",.false.,"none",2
 "ocean_model","tr_D1","tr1","prog_%4yr_%3dy","all",.false.,"none",2
 
 #"ocean_model","RV","RV","prog_%4yr_%3dy","all",.false.,"none",2

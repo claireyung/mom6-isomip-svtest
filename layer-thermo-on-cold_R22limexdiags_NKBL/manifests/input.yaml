@@ -276,6 +276,11 @@ work/INPUT/3D_LAYER_COLD_IC.nc:
   hashes:
     binhash: 8aed54433aaac487cf68a1800a5f11eb
     md5: 3e065dcde20f8c907427290596bb26fa
+work/INPUT/3D_LAYER_COLD_IC_ASC.nc:
+  fullpath: /home/156/cy8964/ISOMIP/3D_LAYER_COLD_IC_ASC.nc
+  hashes:
+    binhash: e43e0f68d5b907248bcfbfb81dfafcf4
+    md5: 7a47e965c74a6e39429fa189aeafc544
 work/INPUT/3D_LAYER_COLD_IC_TEST6OCT.nc:
   fullpath: /home/156/cy8964/ISOMIP/3D_LAYER_COLD_IC_TEST6OCT.nc
   hashes:
@@ -301,16 +306,31 @@ work/INPUT/3D_LAYER_WARM_IC.nc:
   hashes:
     binhash: e4e86b81fb7fc8353c9d17a574f62b30
     md5: 7486adb6e012bda9bc55d85eb72c0140
+work/INPUT/3D_LAYER_WARM_IC_ASC.nc:
+  fullpath: /home/156/cy8964/ISOMIP/3D_LAYER_WARM_IC_ASC.nc
+  hashes:
+    binhash: 4bbdbb0c0921494588d78eb87b984c62
+    md5: bc531997e3bec7765000dd00c922adfd
 work/INPUT/Gustavo_Ocean1_3D.nc:
   fullpath: /home/156/cy8964/ISOMIP/Gustavo_Ocean1_3D.nc
   hashes:
     binhash: 99b2ae5943a26162248bd41257638878
     md5: 9595f5347b9bfc62eeaceda925999ac6
+work/INPUT/Gustavo_Ocean1_3D_ASC.nc:
+  fullpath: /home/156/cy8964/ISOMIP/Gustavo_Ocean1_3D_ASC.nc
+  hashes:
+    binhash: 31afe8c17c831a219877d4094dd2ec25
+    md5: a4f707170ddacd795f0054b6bfbe1f74
 work/INPUT/Gustavo_Ocean1_3D_halved.nc:
   fullpath: /home/156/cy8964/ISOMIP/Gustavo_Ocean1_3D_halved.nc
   hashes:
     binhash: 06073034f8ba6e7bfa54290c8a947a6f
     md5: e5eaa79fa328f9ad86bb01ff004fd88d
+work/INPUT/ISOMIP_WIND_ASC.nc:
+  fullpath: /home/156/cy8964/ISOMIP/ISOMIP_WIND_ASC.nc
+  hashes:
+    binhash: 134be1a8d490194792b5ef111e3aec4d
+    md5: ee3c9f3a18ef4f44afae9493b7c1bc79
 work/INPUT/ISOMIP_thickness_sigma_shelf_zstar-bouss.nc:
   fullpath: /home/156/cy8964/ISOMIP/ISOMIP_thickness_sigma_shelf_zstar-bouss.nc
   hashes:
@@ -331,6 +351,11 @@ work/INPUT/ISOMIP_thickness_zstar-nonbouss.nc:
   hashes:
     binhash: af5b3d4b755db4a3de46090e036dc993
     md5: 645e1a874e8a89bafed5d6666fe34cf7
+work/INPUT/ISOMIP_topo_ASC.nc:
+  fullpath: /home/156/cy8964/ISOMIP/ISOMIP_topo_ASC.nc
+  hashes:
+    binhash: 0bd5c248cc9fed78492346c809c12e57
+    md5: f88d9a779ba0a0f4cedf3ddd2a4e6aa7
 work/INPUT/ISOMIP_zgrid.nc:
   fullpath: /home/156/cy8964/ISOMIP/ISOMIP_zgrid.nc
   hashes:
