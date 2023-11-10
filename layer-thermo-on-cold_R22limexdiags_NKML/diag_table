@@ -74,9 +74,9 @@
 "ice_shelf_model","thermal_driving","thermal_driving","ocean_daily_z","all",.true.,"none",2
 "ice_shelf_model","haline_driving","haline_driving","ocean_daily_z","all",.true.,"none",2
 
-"ocean_model_z","MLD_restrat","MLD_restrat","ocean_daily_z","all",.true.,"none",2
-"ocean_model_z","BLD_restrat","BLD_restrat","ocean_daily_z","all",.true.,"none",2
-"ocean_model_z","h_ML","h_ML","ocean_daily_z","all",.true.,"none",2
+"ocean_model","MLD_restrat","MLD_restrat","ocean_daily_z","all",.true.,"none",2
+"ocean_model","BLD_restrat","BLD_restrat","ocean_daily_z","all",.true.,"none",2
+"ocean_model","h_ML","h_ML","ocean_daily_z","all",.true.,"none",2
 
 
 "ocean_model_z","h","h","ocean_daily_z","all",.true.,"none",1
