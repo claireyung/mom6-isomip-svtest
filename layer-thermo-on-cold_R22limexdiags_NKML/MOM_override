@@ -101,4 +101,4 @@ USE_ISOMIP_TRACER = True
 
 #override NKML = 8
 #override NKBL = 8
-#override NK = 50
+!#override NK = 50
