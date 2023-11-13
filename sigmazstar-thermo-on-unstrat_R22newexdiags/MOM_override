@@ -13,9 +13,9 @@
 
 !WARM IC
 #override ISOMIP_T_SUR = -1.9
-#override ISOMIP_S_SUR = 34.0
+#override ISOMIP_S_SUR = 34.7
 #override ISOMIP_T_BOT = -1.9
-#override ISOMIP_S_BOT = 34.0
+#override ISOMIP_S_BOT = 34.7
 
 ! ice shelf
 #override SHELF_THERMO = True
@@ -119,7 +119,7 @@ USE_ISOMIP_TRACER = True
                                 !  SLIGHT - stretched coordinates above continuous isopycnal
                                 !  ADAPTIVE - optimize for smooth neutral density surfaces
 #override ISOMIP_T_SUR_SPONGE = -1.9
-#override ISOMIP_T_BOT_SPONGE = 34.0
+#override ISOMIP_T_BOT_SPONGE = 34.7
 #override ISOMIP_S_SUR_SPONGE = -1.9
-#override ISOMIP_S_BOT_SPONGE = 34.0
+#override ISOMIP_S_BOT_SPONGE = 34.7
 #override SPONGE_CONFIG = "ISOMIP"
