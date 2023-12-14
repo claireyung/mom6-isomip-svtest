@@ -107,3 +107,4 @@ USE_ISOMIP_TRACER = True
 #override ICE_A_GLEN_CONFIG = CONSTANT
 #override BED_TOPO_FILE = "ice_shelf_bc.nc"
 #override ICE_THICKNESS_MASK_VARNAME = "thick"
+#override ICE_VELOCITY_FILE = "ice_shelf_bc.nc"
