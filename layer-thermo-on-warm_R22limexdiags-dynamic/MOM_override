@@ -105,4 +105,5 @@ USE_ISOMIP_TRACER = True
 #override BASAL_FRICTION_EXP = -0.666
 #override ICE_BASAL_FRICTION_CONFIG = CONSTANT
 #override ICE_A_GLEN_CONFIG = CONSTANT
-
+#override BED_TOPO_FILE = "ice_shelf_bc.nc"
+#override ICE_THICKNESS_MASK_VARNAME = "thick"

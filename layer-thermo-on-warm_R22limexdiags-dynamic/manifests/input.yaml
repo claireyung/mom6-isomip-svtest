@@ -439,8 +439,8 @@ work/INPUT/hycom1_75_800m_shrunken.nc:
 work/INPUT/ice_shelf_bc.nc:
   fullpath: /home/156/cy8964/ISOMIP/ice_shelf_bc.nc
   hashes:
-    binhash: acd5b0e5f7ba7c605ae9331f4df27bfa
-    md5: df25f68c185df28cf4d06e7728c83d19
+    binhash: 72b0966aef784c9677f692bc56310181
+    md5: 4f5c1a70dae584eced5a9143986c5875
 work/INPUT/ice_shelf_thick.nc:
   fullpath: /home/156/cy8964/ISOMIP/ice_shelf_thick.nc
   hashes:
