@@ -441,6 +441,11 @@ work/INPUT/ice_shelf_bc.nc:
   hashes:
     binhash: acd5b0e5f7ba7c605ae9331f4df27bfa
     md5: df25f68c185df28cf4d06e7728c83d19
+work/INPUT/ice_shelf_thick.nc:
+  fullpath: /home/156/cy8964/ISOMIP/ice_shelf_thick.nc
+  hashes:
+    binhash: f84144c5b672c670d2aed429c91b488e
+    md5: fdaf2c2490e0c7309fbd461fd96bc834
 work/INPUT/lin_ISOMIP_initTS_saltlin.nc:
   fullpath: /home/156/cy8964/ISOMIP/lin_ISOMIP_initTS_saltlin.nc
   hashes:
