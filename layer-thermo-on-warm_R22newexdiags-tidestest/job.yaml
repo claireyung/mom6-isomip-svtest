@@ -1,0 +1,9 @@
+PAYU_CONTROL_DIR: /home/156/cy8964/mom6-control/isomip-control/ISOMIP-MOM6-examples/layer-thermo-on-warm_R22newexdiags-tidestest
+PAYU_CURRENT_RUN: 0
+PAYU_FINISH_TIME: '2023-11-02T15:14:06.852749'
+PAYU_JOB_STATUS: 1
+PAYU_N_RUNS: 1
+PAYU_PATH: /g/data/hh5/public/apps/miniconda3/envs/analysis3-23.04/bin
+PAYU_RUN_ID: null
+PAYU_START_TIME: '2023-11-02T15:13:56.778421'
+PAYU_WALLTIME: 10.074328 s

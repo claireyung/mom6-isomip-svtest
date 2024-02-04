@@ -1,0 +1,243 @@
+NOTE from PE     0: MPP_DOMAINS_SET_STACK_SIZE: stack size set to    32768.
+ &MPP_IO_NML
+ HEADER_BUFFER_VAL       =       16384,
+ GLOBAL_FIELD_ON_ROOT_PE = T,
+ IO_CLOCKS_ON    = F,
+ SHUFFLE =           0,
+ DEFLATE_LEVEL   =          -1,
+ CF_COMPLIANCE   = F
+ /
+NOTE from PE     0: MPP_IO_SET_STACK_SIZE: stack size set to     131072.
+NOTE from PE     0: MPP_DOMAINS_SET_STACK_SIZE: stack size set to   960000.
+NOTE from PE     0: ======== Model being driven by MOM_driver ========
+NOTE from PE     0: callTree: o Program MOM_main, MOM_driver.F90
+ &OCEAN_SOLO_NML
+ DATE_INIT       = 3*1, 3*0,
+ CALENDAR        = julian          ,
+ MONTHS  =           0,
+ DAYS    =          31,
+ HOURS   =           0,
+ MINUTES =           0,
+ SECONDS =           0,
+ OCEAN_NTHREADS  =           1,
+ USE_HYPER_THREAD        = F
+ /
+NOTE from PE     0: open_param_file: MOM_input has been opened successfully.
+NOTE from PE     0: open_param_file: MOM_override has been opened successfully.
+NOTE from PE     0: callTree: ---> initialize_MOM(), MOM.F90
+
+WARNING from PE     0: MOM_file_parser : BULKMIXEDLAYER over-ridden.  Line: 'BULKMIXEDLAYER = True' in file MOM_override.
+
+
+WARNING from PE     0: MOM_file_parser : DT over-ridden.  Line: 'DT = 720' in file MOM_override.
+
+
+WARNING from PE     0: MOM_file_parser : DT_THERM over-ridden.  Line: 'DT_THERM = 720' in file MOM_override.
+
+NOTE from PE     0: callTree:    o MOM parameters read (initialize_MOM)
+ MOM_in domain decomposition
+whalo =    4, ehalo =    4, shalo =    4, nhalo =    4
+  X-AXIS =   15  15  15  15  15  15  15  15  15  15  15  15  15  15  15  15
+  Y-AXIS =   14  12  14
+ MOM_inc domain decomposition
+whalo =    2, ehalo =    2, shalo =    2, nhalo =    2
+  X-AXIS =    8   8   8   8   7   7   7   7   7   7   7   7   8   8   8   8
+  Y-AXIS =    7   6   7
+NOTE from PE     0: callTree:    o domains initialized (initialize_MOM)
+
+WARNING from PE     0: diag_manager_mod::diag_manager_init: DIAG_MANAGER_NML not found in input.nml.  Using defaults.
+
+NOTE from PE     0: diag_manager_mod::diag_manager_init: prepend_date only supported when diag_manager_init is called with time_init present.
+ MOM_in domain decomposition
+whalo =    4, ehalo =    4, shalo =    4, nhalo =    4
+  X-AXIS =   15  15  15  15  15  15  15  15  15  15  15  15  15  15  15  15
+  Y-AXIS =   14  12  14
+ MOM_in domain decomposition
+whalo =    2, ehalo =    2, shalo =    2, nhalo =    2
+  X-AXIS =    8   8   8   8   7   7   7   7   7   7   7   7   8   8   8   8
+  Y-AXIS =    7   6   7
+NOTE from PE     0:   MOM_grid.F90, MOM_grid_init: allocating metrics
+NOTE from PE     0: callTree:    ---> MOM_initialize_fixed(), MOM_fixed_initialization.F90
+NOTE from PE     0: callTree:       ---> set_grid_metrics(), MOM_grid_initialize.F90
+NOTE from PE     0: callTree:          ---> set_grid_metrics_cartesian(), MOM_grid_initialize.F90
+NOTE from PE     0: callTree:          <--- set_grid_metrics_cartesian()
+NOTE from PE     0: callTree:          ---> set_derived_metrics(), MOM_grid_initialize.F90
+NOTE from PE     0: callTree:          <--- set_derived_metrics()
+NOTE from PE     0: callTree:       <--- set_grid_metrics()
+NOTE from PE     0:   ISOMIP_initialization.F90, ISOMIP_initialize_topography: setting topography
+NOTE from PE     0: callTree:       ---> limit_topography(), MOM_shared_initialization.F90
+NOTE from PE     0: callTree:       <--- limit_topography()
+NOTE from PE     0: callTree:       ---> initialize_masks(), MOM_grid_initialize.F90
+NOTE from PE     0: callTree:       <--- initialize_masks()
+NOTE from PE     0: callTree:       ---> MOM_initialize_rotation(), MOM_shared_initialization.F90
+NOTE from PE     0: callTree:          ---> set_rotation_beta_plane(), MOM_shared_initialization.F90
+NOTE from PE     0: callTree:          <--- set_rotation_beta_plane()
+NOTE from PE     0: callTree:       <--- MOM_initialize_rotation()
+NOTE from PE     0: callTree:       ---> MOM_calculate_grad_Coriolis(), MOM_shared_initialization.F90
+NOTE from PE     0: callTree:       <--- MOM_calculate_grad_Coriolis()
+NOTE from PE     0: callTree:    <--- MOM_initialize_fixed()
+NOTE from PE     0: callTree:    o returned from MOM_initialize_fixed() (initialize_MOM)
+NOTE from PE     0: callTree:    o grids initialized (initialize_MOM)
+NOTE from PE     0: interpret_eos_selection: equation of state set to "LINEAR"
+NOTE from PE     0: callTree:    o state variables allocated (initialize_MOM)
+
+WARNING from PE     0: MOM_file_parser : SPONGE over-ridden.  Line: 'SPONGE = True' in file MOM_override.
+
+
+WARNING from PE     0: MOM_file_parser : USE_JACKSON_PARAM over-ridden.  Line: 'USE_JACKSON_PARAM = True' in file MOM_override.
+
+NOTE from PE     0: callTree:    o restart registration complete (initialize_MOM)
+NOTE from PE     0: callTree:    ---> write_ocean_geometry_file()
+ MOM_in domain decomposition
+whalo =    4, ehalo =    4, shalo =    4, nhalo =    4
+  X-AXIS =   15  15  15  15  15  15  15  15  15  15  15  15  15  15  15  15
+  Y-AXIS =   14  12  14
+ MOM_in domain decomposition
+whalo =    2, ehalo =    2, shalo =    2, nhalo =    2
+  X-AXIS =    8   8   8   8   7   7   7   7   7   7   7   7   8   8   8   8
+  Y-AXIS =    7   6   7
+NOTE from PE     0: callTree:    <--- write_ocean_geometry_file()
+NOTE from PE     0: callTree:    ---> MOM_initialize_coord(), MOM_coord_initialization.F90
+NOTE from PE     0: callTree:       ---> set_coord_linear(), MOM_coord_initialization.F90
+NOTE from PE     0: callTree:       <--- set_coord_linear()
+NOTE from PE     0: callTree:    <--- MOM_initialize_coord()
+NOTE from PE     0: callTree:    o returned from MOM_initialize_coord() (initialize_MOM)
+ MOM_in domain decomposition
+whalo =    4, ehalo =    4, shalo =    4, nhalo =    4
+  X-AXIS =   15  15  15  15  15  15  15  15  15  15  15  15  15  15  15  15
+  Y-AXIS =   14  12  14
+ MOM_in domain decomposition
+whalo =    2, ehalo =    2, shalo =    2, nhalo =    2
+  X-AXIS =    8   8   8   8   7   7   7   7   7   7   7   7   8   8   8   8
+  Y-AXIS =    7   6   7
+ MOM_Ice_Shelf_in domain decomposition
+whalo =    4, ehalo =    4, shalo =    4, nhalo =    4
+  X-AXIS =   15  15  15  15  15  15  15  15  15  15  15  15  15  15  15  15
+  Y-AXIS =   14  12  14
+ MOM_Ice_Shelf_inc domain decomposition
+whalo =    2, ehalo =    2, shalo =    2, nhalo =    2
+  X-AXIS =    8   8   8   8   7   7   7   7   7   7   7   7   8   8   8   8
+  Y-AXIS =    7   6   7
+NOTE from PE     0:   MOM_grid.F90, MOM_grid_init: allocating metrics
+ MOM_Ice_Shelf_in domain decomposition
+whalo =    4, ehalo =    4, shalo =    4, nhalo =    4
+  X-AXIS =   15  15  15  15  15  15  15  15  15  15  15  15  15  15  15  15
+  Y-AXIS =   14  12  14
+ MOM_Ice_Shelf_in domain decomposition
+whalo =    2, ehalo =    2, shalo =    2, nhalo =    2
+  X-AXIS =    8   8   8   8   7   7   7   7   7   7   7   7   8   8   8   8
+  Y-AXIS =    7   6   7
+NOTE from PE     0: callTree:    ---> set_grid_metrics(), MOM_grid_initialize.F90
+NOTE from PE     0: callTree:       ---> set_grid_metrics_cartesian(), MOM_grid_initialize.F90
+NOTE from PE     0: callTree:       <--- set_grid_metrics_cartesian()
+NOTE from PE     0: callTree:       ---> set_derived_metrics(), MOM_grid_initialize.F90
+NOTE from PE     0: callTree:       <--- set_derived_metrics()
+NOTE from PE     0: callTree:    <--- set_grid_metrics()
+NOTE from PE     0:   ISOMIP_initialization.F90, ISOMIP_initialize_topography: setting topography
+NOTE from PE     0: callTree:    ---> limit_topography(), MOM_shared_initialization.F90
+NOTE from PE     0: callTree:    <--- limit_topography()
+
+WARNING from PE     0: MOM_file_parser : SHELF_THERMO over-ridden.  Line: 'SHELF_THERMO = True' in file MOM_override.
+
+
+WARNING from PE     0: MOM_file_parser : SHELF_THREE_EQN over-ridden.  Line: 'SHELF_THREE_EQN = True' in file MOM_override.
+
+
+WARNING from PE     0: MOM_file_parser : SHELF_S_ROOT over-ridden.  Line: 'SHELF_S_ROOT = False' in file MOM_override.
+
+
+WARNING from PE     0: MOM_file_parser : SHELF_3EQ_GAMMA_T over-ridden.  Line: 'SHELF_3EQ_GAMMA_T = 0.012' in file MOM_override.
+
+
+WARNING from PE     0: MOM_file_parser : UTIDE over-ridden.  Line: 'UTIDE = 0' in file MOM_override.
+
+NOTE from PE     0: interpret_eos_selection: equation of state set to "LINEAR"
+
+WARNING from PE     0: MOM_file_parser : USTAR_SHELF_BG over-ridden.  Line: 'USTAR_SHELF_BG = 1E-4' in file MOM_override.
+
+NOTE from PE     0: Initialize_ice_thickness_from_file: reading thickness
+
+WARNING from PE     0: Ice shelf thickness initialized without setting the shelf mask from variable h_mask, which does not exist in INPUT/Gustavo_Ocean1_3D.nc
+
+ MOM_Ice_Shelf_in domain decomposition
+whalo =    4, ehalo =    4, shalo =    4, nhalo =    4
+  X-AXIS =   15  15  15  15  15  15  15  15  15  15  15  15  15  15  15  15
+  Y-AXIS =   14  12  14
+ MOM_Ice_Shelf_in domain decomposition
+whalo =    2, ehalo =    2, shalo =    2, nhalo =    2
+  X-AXIS =    8   8   8   8   7   7   7   7   7   7   7   7   8   8   8   8
+  Y-AXIS =    7   6   7
+NOTE from PE     0: callTree:    ---> MOM_initialize_state(), MOM_state_initialization.F90
+NOTE from PE     0: Run initialized internally.
+NOTE from PE     0: ISOMIP_initialization.F90, ISOMIP_initialize_thickness: setting thickness
+
+WARNING from PE     0: Previous msg:DRHO_DS = 0.805876              !   [kg m-3 PSU-1] default = 0.8
+
+
+WARNING from PE     0: New message :DRHO_DS = 0.805876              !   [kg m-3 PSU-1]
+
+
+WARNING from PE     0: Encountered inconsistent documentation line for parameter DRHO_DS!
+
+
+WARNING from PE     0: Previous msg:DRHO_DT = -0.038357             !   [kg m-3 K-1] default = -0.2
+
+
+WARNING from PE     0: New message :DRHO_DT = -0.038357             !   [kg m-3 K-1]
+
+
+WARNING from PE     0: Encountered inconsistent documentation line for parameter DRHO_DT!
+
+NOTE from PE     0: callTree:       ---> initialize_velocity_zero(), MOM_state_initialization.F90
+NOTE from PE     0: callTree:       <--- initialize_velocity_zero()
+
+WARNING from PE     0: MOM_file_parser : ISOMIP_TNUDG over-ridden.  Line: 'ISOMIP_TNUDG = 0.1' in file MOM_override.
+
+
+FATAL from PE    13: Invalid data type for dimension
+
+
+FATAL from PE    15: Invalid data type for dimension
+
+
+FATAL from PE     6: Invalid data type for dimension
+
+
+FATAL from PE     8: Invalid data type for dimension
+
+
+FATAL from PE     9: Invalid data type for dimension
+
+
+FATAL from PE    10: Invalid data type for dimension
+
+
+FATAL from PE     7: Invalid data type for dimension
+
+
+FATAL from PE    12: Invalid data type for dimension
+
+
+FATAL from PE     0: Invalid data type for dimension
+
+
+FATAL from PE    14: Invalid data type for dimension
+
+
+FATAL from PE     1: Invalid data type for dimension
+
+
+FATAL from PE     2: Invalid data type for dimension
+
+
+FATAL from PE     3: Invalid data type for dimension
+
+
+FATAL from PE     4: Invalid data type for dimension
+
+
+FATAL from PE    11: Invalid data type for dimension
+
+
+FATAL from PE     5: Invalid data type for dimension
+

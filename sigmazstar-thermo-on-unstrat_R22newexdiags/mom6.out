@@ -1,0 +1,227 @@
+NOTE from PE     0: MPP_DOMAINS_SET_STACK_SIZE: stack size set to    32768.
+ &MPP_IO_NML
+ HEADER_BUFFER_VAL       =       16384,
+ GLOBAL_FIELD_ON_ROOT_PE = T,
+ IO_CLOCKS_ON    = F,
+ SHUFFLE =           0,
+ DEFLATE_LEVEL   =          -1,
+ CF_COMPLIANCE   = F
+ /
+NOTE from PE     0: MPP_IO_SET_STACK_SIZE: stack size set to     131072.
+NOTE from PE     0: MPP_DOMAINS_SET_STACK_SIZE: stack size set to   960000.
+NOTE from PE     0: ======== Model being driven by MOM_driver ========
+NOTE from PE     0: callTree: o Program MOM_main, MOM_driver.F90
+ &OCEAN_SOLO_NML
+ DATE_INIT       = 3*1, 3*0,
+ CALENDAR        = julian          ,
+ MONTHS  =           0,
+ DAYS    =          31,
+ HOURS   =           0,
+ MINUTES =           0,
+ SECONDS =           0,
+ OCEAN_NTHREADS  =           1,
+ USE_HYPER_THREAD        = F
+ /
+NOTE from PE     0: open_param_file: MOM_input has been opened successfully.
+NOTE from PE     0: open_param_file: MOM_override has been opened successfully.
+
+WARNING from PE     0: MOM_file_parser : DT over-ridden.  Line: 'DT = 720' in file MOM_override.
+
+
+WARNING from PE     0: MOM_file_parser : DT_THERM over-ridden.  Line: 'DT_THERM = 720' in file MOM_override.
+
+
+WARNING from PE     0: MOM_file_parser : HMIX_SFC_PROP over-ridden.  Line: 'HMIX_SFC_PROP = 10.' in file MOM_override.
+
+ MOM_in domain decomposition
+whalo =    4, ehalo =    4, shalo =    4, nhalo =    4
+  X-AXIS =   15  15  15  15  15  15  15  15  15  15  15  15  15  15  15  15
+  Y-AXIS =   14  12  14
+ MOM_inc domain decomposition
+whalo =    2, ehalo =    2, shalo =    2, nhalo =    2
+  X-AXIS =    8   8   8   8   7   7   7   7   7   7   7   7   8   8   8   8
+  Y-AXIS =    7   6   7
+
+WARNING from PE     0: diag_manager_mod::diag_manager_init: DIAG_MANAGER_NML not found in input.nml.  Using defaults.
+
+NOTE from PE     0: diag_manager_mod::diag_manager_init: prepend_date only supported when diag_manager_init is called with time_init present.
+ MOM_in domain decomposition
+whalo =    4, ehalo =    4, shalo =    4, nhalo =    4
+  X-AXIS =   15  15  15  15  15  15  15  15  15  15  15  15  15  15  15  15
+  Y-AXIS =   14  12  14
+ MOM_in domain decomposition
+whalo =    2, ehalo =    2, shalo =    2, nhalo =    2
+  X-AXIS =    8   8   8   8   7   7   7   7   7   7   7   7   8   8   8   8
+  Y-AXIS =    7   6   7
+
+WARNING from PE     0: MOM_file_parser : SPONGE over-ridden.  Line: 'SPONGE = True' in file MOM_override.
+
+
+WARNING from PE     0: MOM_file_parser : USE_JACKSON_PARAM over-ridden.  Line: 'USE_JACKSON_PARAM = True' in file MOM_override.
+
+ MOM_in domain decomposition
+whalo =    4, ehalo =    4, shalo =    4, nhalo =    4
+  X-AXIS =   15  15  15  15  15  15  15  15  15  15  15  15  15  15  15  15
+  Y-AXIS =   14  12  14
+ MOM_in domain decomposition
+whalo =    2, ehalo =    2, shalo =    2, nhalo =    2
+  X-AXIS =    8   8   8   8   7   7   7   7   7   7   7   7   8   8   8   8
+  Y-AXIS =    7   6   7
+ MOM_in domain decomposition
+whalo =    4, ehalo =    4, shalo =    4, nhalo =    4
+  X-AXIS =   15  15  15  15  15  15  15  15  15  15  15  15  15  15  15  15
+  Y-AXIS =   14  12  14
+ MOM_in domain decomposition
+whalo =    2, ehalo =    2, shalo =    2, nhalo =    2
+  X-AXIS =    8   8   8   8   7   7   7   7   7   7   7   7   8   8   8   8
+  Y-AXIS =    7   6   7
+ MOM_Ice_Shelf_in domain decomposition
+whalo =    4, ehalo =    4, shalo =    4, nhalo =    4
+  X-AXIS =   15  15  15  15  15  15  15  15  15  15  15  15  15  15  15  15
+  Y-AXIS =   14  12  14
+ MOM_Ice_Shelf_inc domain decomposition
+whalo =    2, ehalo =    2, shalo =    2, nhalo =    2
+  X-AXIS =    8   8   8   8   7   7   7   7   7   7   7   7   8   8   8   8
+  Y-AXIS =    7   6   7
+ MOM_Ice_Shelf_in domain decomposition
+whalo =    4, ehalo =    4, shalo =    4, nhalo =    4
+  X-AXIS =   15  15  15  15  15  15  15  15  15  15  15  15  15  15  15  15
+  Y-AXIS =   14  12  14
+ MOM_Ice_Shelf_in domain decomposition
+whalo =    2, ehalo =    2, shalo =    2, nhalo =    2
+  X-AXIS =    8   8   8   8   7   7   7   7   7   7   7   7   8   8   8   8
+  Y-AXIS =    7   6   7
+
+WARNING from PE     0: MOM_file_parser : SHELF_THERMO over-ridden.  Line: 'SHELF_THERMO = True' in file MOM_override.
+
+
+WARNING from PE     0: MOM_file_parser : SHELF_THREE_EQN over-ridden.  Line: 'SHELF_THREE_EQN = True' in file MOM_override.
+
+
+WARNING from PE     0: MOM_file_parser : SHELF_S_ROOT over-ridden.  Line: 'SHELF_S_ROOT = False' in file MOM_override.
+
+
+WARNING from PE     0: MOM_file_parser : SHELF_3EQ_GAMMA_T over-ridden.  Line: 'SHELF_3EQ_GAMMA_T = 0.012' in file MOM_override.
+
+NOTE from PE     0: Initialize_ice_thickness_from_file: reading thickness
+
+WARNING from PE     0: Ice shelf thickness initialized without setting the shelf mask from variable h_mask, which does not exist in INPUT/Gustavo_Ocean1_3D.nc
+
+ MOM_Ice_Shelf_in domain decomposition
+whalo =    4, ehalo =    4, shalo =    4, nhalo =    4
+  X-AXIS =   15  15  15  15  15  15  15  15  15  15  15  15  15  15  15  15
+  Y-AXIS =   14  12  14
+ MOM_Ice_Shelf_in domain decomposition
+whalo =    2, ehalo =    2, shalo =    2, nhalo =    2
+  X-AXIS =    8   8   8   8   7   7   7   7   7   7   7   7   8   8   8   8
+  Y-AXIS =    7   6   7
+NOTE from PE     0: ISOMIP_initialization.F90, ISOMIP_initialize_thickness: setting thickness
+
+WARNING from PE     0: MOM_file_parser : SPONGE_CONFIG over-ridden.  Line: 'SPONGE_CONFIG = "ISOMIP"' in file MOM_override.
+
+
+WARNING from PE     0: MOM_file_parser : ISOMIP_TNUDG over-ridden.  Line: 'ISOMIP_TNUDG = 0.1' in file MOM_override.
+
+
+WARNING from PE     0: MOM_file_parser : NUM_DIAG_COORDS over-ridden.  Line: 'NUM_DIAG_COORDS = 2' in file MOM_override.
+
+
+WARNING from PE     0: MOM_file_parser : DIAG_COORDS over-ridden.  Line: 'DIAG_COORDS = "z Z ZSTAR", "rho2 RHO2 RHO"' in file MOM_override.
+
+
+WARNING from PE     0: MOM_file_parser : DIAG_COORD_DEF_Z over-ridden.  Line: 'DIAG_COORD_DEF_Z = "FILE:vert_isomip.nc,interfaces=st_edges_ocean"' in file MOM_override.
+
+
+WARNING from PE     0: MOM_file_parser : HTBL_SHELF_MIN over-ridden.  Line: 'HTBL_SHELF_MIN = 10.0' in file MOM_override.
+
+
+WARNING from PE     0: MOM_file_parser : KV over-ridden.  Line: 'KV = 1.0E-3' in file MOM_override.
+
+
+WARNING from PE     0: MOM_file_parser : KH over-ridden.  Line: 'KH = 6.0' in file MOM_override.
+
+
+WARNING from PE     0: MOM_file_parser : SMAGORINSKY_KH over-ridden.  Line: 'SMAGORINSKY_KH = False' in file MOM_override.
+
+
+WARNING from PE     0: MOM_file_parser : BIHARMONIC over-ridden.  Line: 'BIHARMONIC = False' in file MOM_override.
+
+ MOM_in domain decomposition
+whalo =    4, ehalo =    4, shalo =    4, nhalo =    4
+  X-AXIS =   15  15  15  15  15  15  15  15  15  15  15  15  15  15  15  15
+  Y-AXIS =   14  12  14
+ MOM_in domain decomposition
+whalo =    2, ehalo =    2, shalo =    2, nhalo =    2
+  X-AXIS =    8   8   8   8   7   7   7   7   7   7   7   7   8   8   8   8
+  Y-AXIS =    7   6   7
+
+WARNING from PE     0: MOM_file_parser : KD over-ridden.  Line: 'KD = 5.0E-5' in file MOM_override.
+
+NOTE from PE     0: MOM_ice_shelf.F90, initialize_ice_shelf: allocating fluxes.
+NOTE from PE     0: MOM_ice_shelf.F90, initialize_ice_shelf: allocating forces.
+
+WARNING from PE     0: Previous msg:DT_FORCING = 300.0              !   [s] default = 0.0
+
+
+WARNING from PE     0: New message :DT_FORCING = 300.0              !   [s] default = 720.0
+
+
+WARNING from PE     0: Encountered inconsistent documentation line for parameter DT_FORCING!
+
+NOTE from PE     0: Segment run length determined from ocean_solo_nml.
+
+WARNING from PE     0: MOM_file_parser : DAYMAX over-ridden.  Line: 'DAYMAX = 730' in file MOM_override.
+
+
+WARNING from PE     0: Unused line in MOM_input : FIT_SALINITY = True
+
+
+WARNING from PE     0: Unused line in MOM_input : SHELF_2EQ_GAMMA_T = 0.0
+
+
+WARNING from PE     0: Unused line in MOM_input : WRITE_OUTPUT_TO_FILE = True
+
+
+WARNING from PE     0: Unused line in MOM_override : #override USE_HMIX_SFC_PROP = True
+
+
+WARNING from PE     0: Unused line in MOM_override : ISOMIP_SPONGE_FILE = "3D_LAYER_WARM_IC.nc"
+
+NOTE from PE     0: MOM_surface_forcing: buoyancy forcing has been set to omitted.
+ MOM_in domain decomposition
+whalo =    4, ehalo =    4, shalo =    4, nhalo =    4
+  X-AXIS =   15  15  15  15  15  15  15  15  15  15  15  15  15  15  15  15
+  Y-AXIS =   14  12  14
+ MOM_in domain decomposition
+whalo =    2, ehalo =    2, shalo =    2, nhalo =    2
+  X-AXIS =    8   8   8   8   7   7   7   7   7   7   7   7   8   8   8   8
+  Y-AXIS =    7   6   7
+NOTE from PE     0: MPP_IO_SET_STACK_SIZE: stack size set to     345600.
+NOTE from PE     0: MPP_IO_SET_STACK_SIZE: stack size set to     347040.
+NOTE from PE     0: MPP_IO_SET_STACK_SIZE: stack size set to     354240.
+NOTE from PE     0: MPP_IO_SET_STACK_SIZE: stack size set to     355200.
+MOM Day       0.000      0: En 0.000000E+00, MaxCFL  0.00000, Mass 1.352530392847E+16, Salt  34.70000000000, Temp  -1.90000000000
+    Total Energy: 0000000000000000  0.0000000000000000E+00
+    Total Mass:   1.3525303928467370E+16, Change:   0.0000000000000000E+00 Error:  0.00000E+00 ( 0.0E+00)
+    Total Salt:   4.6932804631781775E+14, Change:   0.0000000000000000E+00 Error:  0.00000E+00 ( 0.0E+00)
+    Total Heat:  -1.0212415984228573E+20, Change:   0.0000000000000000E+00 Error:  0.00000E+00 ( 0.0E+00)
+NOTE from PE     0: MPP_IO_SET_STACK_SIZE: stack size set to     356680.
+NOTE from PE     0: MPP_IO_SET_STACK_SIZE: stack size set to     364080.
+
+WARNING from PE     0: diag_util_mod::opening_file: module/field_name (ice_shelf_model/h_mask) NOT registered
+
+
+WARNING from PE     0: diag_util_mod::opening_file: module/field_name (ice_shelf_model/MR_r22) NOT registered
+
+
+WARNING from PE     0: diag_util_mod::opening_file: module/field_name (ocean_model_z/depth_ocean) NOT registered
+
+MOM Day       2.000    576: En 8.007370E-01, MaxCFL  1.19956, Mass 1.353611960769E+16, Salt  29.26576900604, Temp   2.15294912779
+MOM Day       2.000 Energy/Mass: 8.00737E-01 Truncations 339563
+    Total Energy: 434340F2B83CB7F0  1.0838871549505504E+16
+    Total Mass:   1.3536119607689576E+16, Change:   1.0815679222204639E+13 Error: -2.14843E-02 (-1.6E-18)
+    Total Salt:   3.9614494967676188E+14, Change:  -7.3183096641055875E+13 Error: -7.31831E+13 (-1.8E-01)
+    Total Heat:   1.1581260061265522E+20, Change:   2.1793676045494095E+20 Error:  2.21360E+20 ( 1.9E+00)
+
+FATAL from PE     0: write_energy : Ocean velocity has been truncated too many times.
+
